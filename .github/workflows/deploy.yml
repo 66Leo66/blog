@@ -22,7 +22,7 @@ jobs:
       - run: pnpm install
       - run: pnpm build
       # - run: pnpm postbuild
-      - run: pnpm exec wrangler pages deploy dist --project-name=blog-leo
+      - run: pnpm dlx wrangler pages deploy dist --project-name=blog-leo
         if: github.event_name != 'pull_request'
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
