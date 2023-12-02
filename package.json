@@ -13,5 +13,8 @@
     "@astrojs/check": "^0.3.1",
     "astro": "^3.6.4",
     "typescript": "^5.3.2"
+  },
+  "devDependencies": {
+    "unocss": "^0.57.7"
   }
 }
