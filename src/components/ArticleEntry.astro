@@ -1,0 +1,15 @@
+---
+interface Props {
+    title: string;
+    slug: string;
+    time: string;
+}
+const { title, slug, time } = Astro.props;
+---
+
+<div class="block mb-4">
+    <p class="text-sm text-gray-500">{time}</p>
+    <a class="text-lg" href={`/posts/${slug}`}>
+        <h2>{title}</h2>
+    </a>
+</div>

@@ -1,0 +1,36 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, getEntry } from "astro:content";
+import Layout from "../../layouts/Layout.astro";
+import DateToString from "../../utils/DateToString.ts";
+
+export const getStaticPaths = (async () => {
+  const allPosts = await getCollection("posts");
+  return allPosts.filter((entry) => import.meta.env.DEV || !entry.data.draft).map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+// console.log(entry);
+const { Content } = await entry.render();
+
+const displayTimeString = DateToString(entry.data.time);
+---
+
+<Layout title={entry.data.title + " - Leo's Blog"}>
+  <main>
+    <article class="prose font-sans max-w-3xl mx-auto">
+      <h1>
+        {entry.data.title}
+        <small class="text-base font-medium block">
+          {entry.data.time && <>于 {displayTimeString + " "}</>}发表在 <span class="site"><a href="/">Leo's Blog</a>
+        </small>
+      </h1>
+      
+        <Content frontmatter={entry.data} />
+      
+    </article>
+  </main>
+</Layout>
