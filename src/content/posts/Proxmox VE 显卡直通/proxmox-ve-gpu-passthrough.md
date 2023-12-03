@@ -195,6 +195,7 @@ IOMMU 组 48:
 ## 配置虚拟机
 
 > ⚠️ 以下内容仅适用于 Linux 虚拟机。Windows 虚拟机理论上可行，但我没有需求，故未曾尝试。
+> 
 > FYI：参考资料中的 [3os.org](http://3os.org/) 有较为详细的相关教程。
 
 按照正常流程新建 QEMU 虚拟机，但需要注意以下配置：
@@ -205,11 +206,11 @@ IOMMU 组 48:
   - “设备”选择带显卡名称的项目
   - 勾选 `所有功能` 和 `PCI-Express`
 
-![选择设备的示例](./select-device.webp)
+![选择设备的示例](./select-device.webp "选择设备的示例")
 
-![设置选项的示例](./configuration.webp)
+![设置选项的示例](./configuration.webp "设置选项的示例")
 
-![最终效果示意图](./result-overview.webp)
+![最终效果示意图](./result-overview.webp "最终效果示意图")
 
 ## 完成
 
