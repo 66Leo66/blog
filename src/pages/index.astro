@@ -12,8 +12,8 @@ const allPosts = (await getCollection("posts")).filter(
 
 <Layout title="Leo's Blog">
   <main class="flex flex-row">
-    <section class="block grow font-sans">
-      <h1 class="text-3xl font-bold mb-4">Leo's Blog</h1>
+    <section class="block grow">
+      <h1 class="text-3xl font-bold mb-4 font-en">Leo's Blog</h1>
       {
         allPosts.map((entry) => (
           <ArticleEntry
@@ -24,7 +24,7 @@ const allPosts = (await getCollection("posts")).filter(
         ))
       }
     </section>
-    <aside class="w-40% block font-sans">
+    <aside class="w-40% block font-zh">
 		Sidebar: Something will be put here, soon...
 	</aside>
   </main>
