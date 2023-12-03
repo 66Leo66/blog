@@ -16,6 +16,7 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
 
+	<!-- Fonts below will be served by Cloudflare Fonts only if all other preferred system fonts failed. -->
     <link rel="preload" href="https://fonts.googleapis.com" as="style" />
     <link
       rel="stylesheet"
