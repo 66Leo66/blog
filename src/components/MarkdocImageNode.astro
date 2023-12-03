@@ -1,0 +1,15 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  title: string;
+}
+
+const { src, alt, title } = Astro.props;
+console.log("test")
+---
+
+<figure>
+  <img src={src} alt={alt} />
+  {title && <figcaption>{title}</figcaption>}
+</figure>
