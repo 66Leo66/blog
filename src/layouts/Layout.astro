@@ -1,23 +1,28 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
-
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Leo's blog" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body class="max-w-4xl mx-auto my-0 p-4 block">
-		<slot />
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Leo's blog" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+
+    <link rel="preload" href="fonts.googleapis.com" as="style" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap"
+    />
+  </head>
+  <body class="max-w-4xl mx-auto my-0 p-4 block">
+    <slot />
+  </body>
 </html>
