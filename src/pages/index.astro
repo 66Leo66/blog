@@ -12,7 +12,7 @@ const allPosts = (await getCollection("posts")).filter(
 
 <Layout title="Welcome to Astro.">
   <main class="flex flex-row">
-    <section class="block grow">
+    <section class="block grow font-sans">
       <h1 class="text-3xl font-bold mb-4">Leo's Blog</h1>
       {
         allPosts.map((entry) => (
@@ -24,7 +24,7 @@ const allPosts = (await getCollection("posts")).filter(
         ))
       }
     </section>
-    <aside class="w-40% block">
+    <aside class="w-40% block font-sans">
 		Sidebar: Something will be put here, soon...
 	</aside>
   </main>
