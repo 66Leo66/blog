@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import ArticleEntry from "../components/ArticleEntry.astro";
 
-import { getCollection, getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import DateToString from "../utils/DateToString";
 
 const allPosts = (await getCollection("posts")).filter(
