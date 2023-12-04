@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://blog.6leo6.com/sitemap-index.xml
