@@ -1,22 +1,20 @@
 import { defineMarkdocConfig, nodes, component } from "@astrojs/markdoc/config";
-import shiki from "@astrojs/markdoc/shiki";
+import shiki from "./src/utils/markdoc-fence";
+// import { ImageSchema } from "./src/utils/markdoc-asset-config";
+
 
 export default defineMarkdocConfig({
-    extends: [
-        shiki({
-            theme: "nord",
-            wrap: true
-        })
-    ],
-    nodes: {
-        image: {
-            ...nodes.image,
-            render: component("./src/components/MarkdocImageNode.astro")
-        },
-        document: {
-            ...nodes.document,
-            render: undefined
-        },
-        
-    }
-})
+  extends: [
+    shiki({
+      theme: "nord",
+      wrap: true,
+    }),
+  ],
+  nodes: {
+    // image: ImageSchema,
+    document: {
+      ...nodes.document,
+      render: undefined,
+    },
+  },
+});

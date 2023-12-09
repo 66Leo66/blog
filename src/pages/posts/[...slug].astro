@@ -4,6 +4,8 @@ import { getCollection } from "astro:content";
 import Layout from "../../layouts/Layout.astro";
 import DateToString from "../../utils/DateToString.ts";
 
+import "../../styles/shiki-line-number.css";
+
 export const getStaticPaths = (async () => {
   const allPosts = await getCollection("posts");
   return allPosts.filter((entry) => import.meta.env.DEV || !entry.data.draft).map((entry) => ({

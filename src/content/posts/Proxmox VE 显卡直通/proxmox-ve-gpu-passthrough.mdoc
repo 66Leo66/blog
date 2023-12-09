@@ -20,7 +20,6 @@ root@pve:~# lspci | grep VGA
 02:00.0 VGA compatible controller: NVIDIA Corporation TU116 [GeForce GTX 1660 SUPER] (rev a1)
 81:00.0 VGA compatible controller: NVIDIA Corporation TU116 [GeForce GTX 1660 SUPER] (rev a1)
 ^^^^^
-
 ```
 
 记下开头`XX:XX` PCI 地址，如上方输出中的`02:00`和`81:00`。
@@ -38,7 +37,6 @@ root@pve:~# lspci -n -s 81:00
 81:00.2 0c03: 10de:1aec (rev a1)
 81:00.3 0c80: 10de:1aed (rev a1)
               ^^^^^^^^^
-
 ```
 
 记下`XXXX:XXXX` 形式的 Vendor ID 和 Device ID，有多个显卡的话都要记录但同款显卡通常相同（如上例）
@@ -53,7 +51,6 @@ root@pve:~# lspci -n -s 81:00
 options vfio-pci ids=10de:21c4,10de:1aeb,10de:1aec,10de:1aed disable_vga=1
 #                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 # 只需要输入第一行
-
 ```
 
 ### 调整内核模块
@@ -64,21 +61,18 @@ options vfio-pci ids=10de:21c4,10de:1aeb,10de:1aec,10de:1aed disable_vga=1
 blacklist radeon
 blacklist nouveau
 blacklist nvidia
-
 ```
 
 编辑 `/etc/modprobe.d/kvm.conf`，写入：
 
 ```
 options kvm ignore_msrs=1
-
 ```
 
 编辑 `/etc/modprobe.d/iommu_unsafe_interrupts.conf`，写入：
 
 ```
 options vfio_iommu_type1 allow_unsafe_interrupts=1
-
 ```
 
 修改 `/etc/modules`，写入：
@@ -88,14 +82,12 @@ vfio
 vfio_iommu_type1
 vfio_pci
 vfio_virqfd
-
 ```
 
 应用以上更改
 
 ```bash
 update-initramfs -u -k all
-
 ```
 
 ### 修改 GRUB
@@ -104,14 +96,12 @@ update-initramfs -u -k all
 
 ```
 GRUB_CMDLINE_LINUX_DEFAULT="quiet intel_iommu=on iommu=pt pcie_acs_override=downstream,multifunction nofb nomodeset video=efifb:off video=vesafb:off pcie_aspm=off initcall_blacklist=sysfb_init"
-
 ```
 
 执行
 
 ```
 sudo update-grub
-
 ```
 
 ### Tricky Workaround
@@ -125,21 +115,18 @@ echo 1 > /sys/bus/pci/devices/0000\\:02\\:00.0/remove
 # 修改此处的 PCI 地址                ^^^^^^
 
 echo 1 > /sys/bus/pci/rescan
-
 ```
 
 并设置此脚本开机运行：
 
 ```bash
 crontab -e
-
 ```
 
 在打开的编辑器中修改文件，在文件末尾加入这一行：
 
 ```
 @reboot /root/fix_gpu_pass.sh
-
 ```
 
 ## 重启 Proxmox VE 宿主机
@@ -150,7 +137,6 @@ crontab -e
 
 ```bash
 dmesg | grep -e DMAR -e IOMMU
-
 ```
 
 如果输出中包含形如以下内容，则 IOMMU 成功启用。
@@ -171,7 +157,6 @@ for g in $(find /sys/kernel/iommu_groups/* -maxdepth 0 -type d | sort -V); do
         echo -e "\\t$(lspci -nns ${d##*/})"
     done;
 done;
-
 ```
 
 根据输出确认 GPU 处于单独的 IOMMU 分组，例如：
