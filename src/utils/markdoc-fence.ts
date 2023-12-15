@@ -26,10 +26,9 @@ export default async function shiki(
               : "plaintext";
 
           // Redirect to custom renderer
-          if (lang.startsWith("math-")) {
+          if (lang.startsWith("latex")) {
             const markup = convertLatexToMarkup(attributes.content as string, {
-              mathstyle:
-                lang.split("-")[1] === "inline" ? "textstyle" : "displaystyle",
+              mathstyle: "displaystyle",
             });
             return unescapeHTML(markup) as any;
           }

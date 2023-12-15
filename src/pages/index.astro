@@ -1,9 +1,12 @@
 ---
+import { Image } from "astro:assets";
 import Layout from "../layouts/Layout.astro";
 import ArticleEntry from "../components/ArticleEntry.astro";
 
 import { getCollection } from "astro:content";
 import DateToString from "../utils/DateToString";
+
+import hexagonLogo from "../assets/hexagon_logo.png";
 
 const allPosts = (await getCollection("posts")).filter(
   (entry) => import.meta.env.DEV || !entry.data.draft
@@ -24,8 +27,14 @@ const allPosts = (await getCollection("posts")).filter(
         ))
       }
     </section>
-    <aside class="w-40% block font-zh">
-		Sidebar: Something will be put here, soon...
-	</aside>
+    <aside class="w-40% block font-zh hidden sm:block">
+      <Image
+        src={hexagonLogo}
+        alt="My logo: cool hexagons"
+        width="148"
+        height="148"
+        class="m-a block rounded-2"
+      />
+    </aside>
   </main>
 </Layout>
