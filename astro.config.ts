@@ -11,7 +11,7 @@ export default defineConfig({
   site: "https://blog.6leo6.com",
   integrations: [
     UnoCSS({
-      injectReset: true,
+      injectReset: '@unocss/reset/eric-meyer.css',
     }),
     markdoc(),
     sitemap(),
