@@ -1,0 +1,21 @@
+---
+import 'artalk/dist/Artalk.css'
+---
+
+<div id="artalk"></div>
+<script>
+import Artalk from "artalk";
+
+Artalk.init({
+    el: "#artalk",
+    pageKey:   `${location.pathname}`,
+    pageTitle: `${document.title.replace(/ - Leo's Blog$/, "")}`,
+    server: "https://artalk.6leo6.com",
+    site: "Leo's Blog",
+    // darkMode: (localStorage.getItem("theme") === "dark")
+})
+
+// document.firstElementChild?.addEventListener("switched-color-mode", (_) => {
+//     Artalk.setDarkMode(localStorage.getItem("theme") === "dark")
+// })
+</script>
