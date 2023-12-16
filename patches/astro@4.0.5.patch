@@ -1,0 +1,13 @@
+diff --git a/dist/vite-plugin-dev-overlay/vite-plugin-dev-overlay.js b/dist/vite-plugin-dev-overlay/vite-plugin-dev-overlay.js
+index 0643846227e5d83766f2028933ee5e66ea6a5f8d..e16cd0af53647b43a8bf8e266e9600c52a7d4283 100644
+--- a/dist/vite-plugin-dev-overlay/vite-plugin-dev-overlay.js
++++ b/dist/vite-plugin-dev-overlay/vite-plugin-dev-overlay.js
+@@ -12,7 +12,7 @@ function astroDevOverlay({ settings }) {
+       if (id === resolvedVirtualModuleId) {
+         return `
+ 					export const loadDevOverlayPlugins = async () => {
+-						return [${settings.devToolbarApps.map((plugin) => `(await import('${plugin}')).default`).join(",")}];
++						return [${settings.devToolbarApps.map((plugin) => `(await import(${JSON.stringify(plugin)})).default`).join(",")}];
+ 					};
+ 				`;
+       }

@@ -3,9 +3,8 @@ import UnoCSS from "unocss/astro";
 import markdoc from "@astrojs/markdoc";
 import sitemap from "@astrojs/sitemap";
 
-// import sentry from "@sentry/astro";
-// import spotlightjs from "@spotlightjs/astro";
-// import lighthouse from "astro-lighthouse";
+import sentry from "@sentry/astro";
+import spotlightjs from "@spotlightjs/astro";
 
 // https://astro.build/config
 export default defineConfig({
@@ -16,8 +15,7 @@ export default defineConfig({
     }),
     markdoc(),
     sitemap(),
-    // sentry(),
-    // spotlightjs(),
-    // lighthouse(),
+    sentry(),
+    spotlightjs(),
   ],
 });
