@@ -15,10 +15,28 @@ export default defineMarkdocConfig({
       ...nodes.document,
       render: undefined,
     },
-    
   },
   tags: {
     math: {
+      render: component("./src/components/markdoc/Math.astro"),
+      children: [],
+      selfClosing: true,
+      attributes: {
+        latex: {
+          type: String,
+          required: false,
+        },
+        ascii: {
+          type: String,
+          required: false,
+        },
+        as: {
+          type: String,
+          required: false,
+          default: "render",
+          matches: ["render", "spoken"]
+        }
+      },
     },
   },
 });

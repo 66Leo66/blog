@@ -1,11 +1,26 @@
 ---
-import 'mathlive/static.css';
-import  {
-    convertLatexToMarkup
-} from 'mathlive';
+import "mathlive/static.css";
+import {
+  convertLatexToMarkup,
+  convertAsciiMathToLatex,
+  convertLatexToSpeakableText,
+} from "mathlive";
 
-const slotText = await Astro.slots.render('default');
-console.log(slotText)
+interface Props {
+  latex?: string;
+  ascii?: string;
+  as?: "render" | "spoken";
+}
+const { latex, ascii, as } = Astro.props;
+if ((!latex && !ascii) || (latex && ascii)) {
+  throw new Error("Must provide either latex or ascii, but not both");
+}
+const source = latex || convertAsciiMathToLatex(ascii);
+
+const res =
+  as === "spoken"
+    ? convertLatexToSpeakableText(source)
+    : convertLatexToMarkup(source, {mathstyle: 'textstyle'});
 ---
 
-<div>Math wip</div>
+{as === "spoken" ? <span set:text={res} /> : <span set:html={res} />}

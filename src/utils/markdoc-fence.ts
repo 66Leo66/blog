@@ -8,6 +8,7 @@ import { unescapeHTML } from "astro/runtime/server/index.js";
 import type { AstroMarkdocConfig } from "@astrojs/markdoc/config";
 import { convertLatexToMarkup } from "mathlive";
 
+// @unocss-include
 export default async function shiki(
   config?: ShikiConfig
 ): Promise<AstroMarkdocConfig> {
@@ -30,7 +31,7 @@ export default async function shiki(
             const markup = convertLatexToMarkup(attributes.content as string, {
               mathstyle: "displaystyle",
             });
-            return unescapeHTML(markup) as any;
+            return unescapeHTML(`<div class="font-size-5 text-center py-3">${markup}</div>`) as any;
           }
 
           const trimmedContent = (attributes.content as string).endsWith("\n")
