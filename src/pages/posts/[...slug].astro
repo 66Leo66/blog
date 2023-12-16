@@ -6,6 +6,7 @@ import Artalk from "../../components/Artalk.astro";
 import DateToString from "../../utils/DateToString.ts";
 
 import "../../styles/shiki-line-number.css";
+import "lightgallery/css/lightgallery-bundle.min.css";
 
 export const getStaticPaths = (async () => {
   const allPosts = await getCollection("posts");
@@ -46,3 +47,16 @@ const displayTimeString = DateToString(entry.data.time);
     </article>
   </main>
 </Layout>
+
+<script>
+  import lightGallery from "lightgallery";
+
+  document.querySelectorAll("img").forEach((img) => {
+    const parent = img.parentElement;
+    parent?.setAttribute("data-src", img.src);
+  });
+  lightGallery(document.getElementById("blog-content")!, {
+    licenseKey: "opensource",
+    selector: "p:has(img)",
+  });
+</script>
