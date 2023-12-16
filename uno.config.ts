@@ -30,8 +30,8 @@ export default defineConfig({
   ],
   theme: {
     fontFamily: {
-      zh: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, Oxygen, Cantarell, "Fira Sans", "Liberation Sans", "Droid Sans", Ubuntu, "PingFang SC", "HarmonyOS Sans SC", MiSans, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-      en: '-apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Roboto, Oxygen, Cantarell, "Fira Sans", "Liberation Sans", "Droid Sans", Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+      zh: 'system-ui, "Seoge UI", "Noto Sans", Roboto, Oxygen, Cantarell, "Fira Sans", "Liberation Sans", "Droid Sans", Ubuntu, "PingFang SC", "HarmonyOS Sans SC", MiSans, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Noto Sans CJK SC", "Noto Sans SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+      en: 'system-ui, "Seoge UI", "Noto Sans", Roboto, Oxygen, Cantarell, "Fira Sans", "Liberation Sans", "Droid Sans", Ubuntu, "Helvetica Neue", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
     },
   },
 });
