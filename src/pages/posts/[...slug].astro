@@ -6,6 +6,7 @@ import Artalk from "../../components/Artalk.astro";
 import DateToString from "../../utils/DateToString.ts";
 
 import "../../styles/shiki-line-number.css";
+import "../../styles/yue.css";
 
 export const getStaticPaths = (async () => {
   const allPosts = await getCollection("posts");
@@ -24,7 +25,7 @@ const displayTimeString = DateToString(entry.data.time);
 
 <Layout title={entry.data.title + " - Leo's Blog"}>
   <main>
-    <article class="prose font-zh max-w-3xl mx-auto">
+    <article class="prose prose-truegray font-zh max-w-3xl mx-auto text-lg">
       <h1>
         {entry.data.title}
         <small class="text-base font-medium block">
