@@ -4,14 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-patchedDependencies:
-  '@spotlightjs/astro@1.0.6':
-    hash: qqtaifsxgmfm2uaqee6cwcctmy
-    path: patches/@spotlightjs__astro@1.0.6.patch
-  astro@4.0.5:
-    hash: o4vjliorpsw2dyesl5bhpwexta
-    path: patches/astro@4.0.5.patch
-
 dependencies:
   '@astrojs/check':
     specifier: ^0.3.2
@@ -33,13 +25,13 @@ dependencies:
     version: 7.88.0(astro@4.0.5)
   '@spotlightjs/astro':
     specifier: ^1.0.6
-    version: 1.0.6(patch_hash=qqtaifsxgmfm2uaqee6cwcctmy)(@sentry/astro@7.88.0)(astro@4.0.5)
+    version: 1.0.6(@sentry/astro@7.88.0)(astro@4.0.5)
   artalk:
     specifier: ^2.6.4
     version: 2.6.4
   astro:
     specifier: ^4.0.5
-    version: 4.0.5(patch_hash=o4vjliorpsw2dyesl5bhpwexta)(typescript@5.3.3)
+    version: 4.0.5(typescript@5.3.3)
   astro-lighthouse:
     specifier: ^0.1.3
     version: 0.1.3
@@ -161,7 +153,7 @@ packages:
       '@astrojs/internal-helpers': 0.2.1
       '@astrojs/prism': 3.0.0
       '@markdoc/markdoc': 0.3.5
-      astro: 4.0.5(patch_hash=o4vjliorpsw2dyesl5bhpwexta)(typescript@5.3.3)
+      astro: 4.0.5(typescript@5.3.3)
       esbuild: 0.19.9
       github-slugger: 2.0.0
       gray-matter: 4.0.3
@@ -1277,7 +1269,7 @@ packages:
       '@sentry/types': 7.88.0
       '@sentry/utils': 7.88.0
       '@sentry/vite-plugin': 2.10.2
-      astro: 4.0.5(patch_hash=o4vjliorpsw2dyesl5bhpwexta)(typescript@5.3.3)
+      astro: 4.0.5(typescript@5.3.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -1509,7 +1501,7 @@ packages:
       - supports-color
     dev: false
 
-  /@spotlightjs/astro@1.0.6(patch_hash=qqtaifsxgmfm2uaqee6cwcctmy)(@sentry/astro@7.88.0)(astro@4.0.5):
+  /@spotlightjs/astro@1.0.6(@sentry/astro@7.88.0)(astro@4.0.5):
     resolution: {integrity: sha512-OuU5aPMEGxAyHhSqM+Mnh7sxzvAAIjATGpIEENASYOyw/Maf8TZ0MMZugUAbOJ/Gy2dzbAvd1W7FvDNinyF7Ew==}
     peerDependencies:
       '@sentry/astro': '>=7.84.0'
@@ -1518,10 +1510,9 @@ packages:
       '@sentry/astro': 7.88.0(astro@4.0.5)
       '@spotlightjs/overlay': 1.2.0
       '@spotlightjs/sidecar': 1.3.1
-      astro: 4.0.5(patch_hash=o4vjliorpsw2dyesl5bhpwexta)(typescript@5.3.3)
+      astro: 4.0.5(typescript@5.3.3)
       source-map: 0.7.4
     dev: false
-    patched: true
 
   /@spotlightjs/overlay@1.2.0:
     resolution: {integrity: sha512-DyhvMgtVjWi3L577gq6X3MPDWeZ2DvTWxxhub5IEC8CZ7NagjokHwH1aaLRhHj37LitQP8RmD5Ru5wCbmMW2hQ==}
@@ -2065,7 +2056,7 @@ packages:
       - utf-8-validate
     dev: false
 
-  /astro@4.0.5(patch_hash=o4vjliorpsw2dyesl5bhpwexta)(typescript@5.3.3):
+  /astro@4.0.5(typescript@5.3.3):
     resolution: {integrity: sha512-OTiTEiXYdXTkVJXNNKIWdYG1z2wpTST+92Qcldm36x91Pe4fKpLxeuRloy5cW175oHi8lvXytgG3Gl3VBP18RQ==}
     engines: {node: '>=18.14.1', npm: '>=6.14.0'}
     hasBin: true
@@ -2144,7 +2135,6 @@ packages:
       - terser
       - typescript
     dev: false
-    patched: true
 
   /axe-core@4.8.2:
     resolution: {integrity: sha512-/dlp0fxyM3R8YW7MFzaHWXrf4zzbr0vaYb23VBFCl83R7nWNPg/yaQw2Dc8jzCMmDVLhSdzH8MjrsuIUuvX+6g==}
