@@ -6,7 +6,7 @@ time: 2023-12-03T00:00:00
 draft: true
 ---
 
-According to frontmatter, this "post" is titled "{% $frontmatter.title %}".
+test
 
 This is a test post.
 
@@ -37,30 +37,27 @@ print("I guess codeblocks works fine.")
 
 I'll show you an equotation:
 
-```latex
+$$
 f(n) = \begin{dcases}
   1 & \text{if } n = 0  \\ 
   f(n-1) + f(n-2) & \text{if } n \ge 2
 \end{dcases}
-```
+$$
 
 And another one
 
-```latex
+$$
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-```
+$$
 
 Also this one!!
 
-```latex
+$$
 \lim_{x\to \infty} 1/x = 0
-```
+$$
 
 And chemistry!! `mhchem` is so cool.
 
-```latex
+$$
 \ce{ $x\,$ Na(NH4)HPO4 ->[\Delta](NaPO3)_{$x$} + $x\,$ NH3 ^ + $x\,$ H2O }
-```
-
-You know what's even cooler? Inline {% math latex="math" /%}! How wonderful!
-Also this one: {% math latex="\\lim_{x\\to \\infty} 1/x = 0" /%}
+$$

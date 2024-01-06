@@ -6,7 +6,6 @@ import Artalk from "../../components/Artalk.astro";
 import DateToString from "../../utils/DateToString.ts";
 
 import "../../styles/shiki-line-number.css";
-import "lightgallery/css/lightgallery-bundle.min.css";
 
 export const getStaticPaths = (async () => {
   const allPosts = await getCollection("posts");
@@ -25,6 +24,14 @@ const { Content } = await entry.render();
 const displayTimeString = DateToString(entry.data.time);
 ---
 
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.9/katex.min.css"
+  integrity="sha512-fHwaWebuwA7NSF5Qg/af4UeDx9XqUpYpOGgubo3yWu+b2IQR4UeQwbb42Ti7gVAjNtVoI/I9TEoYeu9omwcC6g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
 <Layout title={entry.data.title + " - Leo's Blog"}>
   <main>
     <article
@@ -41,22 +48,9 @@ const displayTimeString = DateToString(entry.data.time);
         </small>
       </h1>
 
-      <Content frontmatter={entry.data} />
+      <Content />
 
       <Artalk />
     </article>
   </main>
 </Layout>
-
-<script>
-  import lightGallery from "lightgallery";
-
-  document.querySelectorAll("img").forEach((img) => {
-    const parent = img.parentElement;
-    parent?.setAttribute("data-src", img.src);
-  });
-  lightGallery(document.getElementById("blog-content")!, {
-    licenseKey: "opensource",
-    selector: "p:has(img)",
-  });
-</script>
