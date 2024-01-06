@@ -2,15 +2,7 @@ import type { APIRoute } from "astro";
 import rss from "@astrojs/rss";
 import path from "node:path";
 import { getCollection } from "astro:content";
-import Markdoc from "@markdoc/markdoc";
 import sanitizeHtml from "sanitize-html";
-
-function renderMarkdoc(body: string) {
-  const ast = Markdoc.parse(body);
-  const content = Markdoc.transform(ast);
-  const html = Markdoc.renderers.html(content);
-  return sanitizeHtml(html);
-}
 
 export const GET: APIRoute = async (context) => {
   const posts = (await getCollection("posts")).filter(
@@ -21,7 +13,7 @@ export const GET: APIRoute = async (context) => {
       title: post.data.title,
       pubDate: post.data.time,
       link: `/posts/${post.slug}`,
-      description: renderMarkdoc(post.body),
+      // description: renderMarkdoc(post.body),
     }))
   );
   return rss({
