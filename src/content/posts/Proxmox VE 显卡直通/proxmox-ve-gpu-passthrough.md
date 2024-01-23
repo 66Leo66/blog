@@ -1,5 +1,5 @@
 ---
-time: "2022-06-25"
+time: "2023-06-25"
 title: Proxmox VE 配置 PCIe 显卡直通
 slug: proxmox-ve-gpu-passthrough
 tags:
@@ -24,7 +24,7 @@ root@pve:~# lspci | grep VGA
 
 记下开头`XX:XX` PCI 地址，如上方输出中的`02:00`和`81:00`。
 
-```bash
+```shell
 root@pve:~# lspci -n -s 02:00
 02:00.0 0300: 10de:21c4 (rev a1)
 02:00.1 0403: 10de:1aeb (rev a1)
