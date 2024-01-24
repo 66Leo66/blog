@@ -25,6 +25,9 @@ export default defineConfig({
           "margin-inline-start": "0px",
           "margin-inline-end": "0px",
         },
+        "code pre": {
+          "text-wrap": "wrap"
+        }
       },
     }),
   ],
