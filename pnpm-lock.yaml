@@ -31,7 +31,7 @@ dependencies:
     version: 0.1.3
   mathlive:
     specifier: ^0.98.5
-    version: 0.98.5
+    version: 0.98.6
   rehype-katex:
     specifier: ^7.0.0
     version: 7.0.0
@@ -4084,8 +4084,8 @@ packages:
     resolution: {integrity: sha512-q9JtQJKjpsVxCRVgQ+WapguSbKC3SQ5HEzFGPAJMStgh3QjCawp00UKv3MTTAArTmGmmPUvllHZoNbZ3gs0I+Q==}
     dev: false
 
-  /mathlive@0.98.5:
-    resolution: {integrity: sha512-VsKAezTSt2TxZ9+pZRnfu3npkJ4z9OojsjElcrCjgdYuvlQpiUl/dxEmeiinCiDRYbudB6c44rfO5byzdCEkcQ==}
+  /mathlive@0.98.6:
+    resolution: {integrity: sha512-5rRnVa1Xc9iD+f3sfQ6CWgL0GIIq0Fl6A/FbM5gZcrMaEeYn34DFIxUnLLLMgpb8vc/LZhJ1s9dDCqxv2bYTBw==}
     engines: {node: '>=16.14.2', npm: '>=8.5.0'}
     dependencies:
       '@cortex-js/compute-engine': 0.22.0
