@@ -22,7 +22,7 @@ dependencies:
     version: 1.0.20(@sentry/astro@7.109.0)(astro@4.5.16)
   artalk:
     specifier: ^2.7.3
-    version: 2.8.3
+    version: 2.8.4
   astro:
     specifier: ^4.2.4
     version: 4.5.16(typescript@5.4.4)
@@ -2256,13 +2256,13 @@ packages:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
     dev: false
 
-  /artalk@2.8.3:
-    resolution: {integrity: sha512-AaBPo4LEyikJmJIj2kZ3YgLP3mT/8CuLdbyNffsmdpiMES1Kmn/Jlno2L3cXhON9jPXLuUqZVWz6oJOFQDSLWQ==}
+  /artalk@2.8.4:
+    resolution: {integrity: sha512-0xeeiFpDoxfaqz5r5yddvZiFwGMSfW7AblatJQb3WbC7TmCCwYYIvui98bHFjbFdLSFVe5cFf/Psqbkp1s3MmQ==}
     dependencies:
       abortcontroller-polyfill: 1.7.5
       hanabi: 0.4.0
       insane: 2.6.2
-      marked: 11.2.0
+      marked: 12.0.1
     dev: false
 
   /assignment@2.0.0:
@@ -3983,8 +3983,8 @@ packages:
     resolution: {integrity: sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==}
     dev: false
 
-  /marked@11.2.0:
-    resolution: {integrity: sha512-HR0m3bvu0jAPYiIvLUUQtdg1g6D247//lvcekpHO1WMvbwDlwSkZAX9Lw4F4YHE1T0HaaNve0tuAWuV1UJ6vtw==}
+  /marked@12.0.1:
+    resolution: {integrity: sha512-Y1/V2yafOcOdWQCX0XpAKXzDakPOpn6U0YLxTJs3cww6VxOzZV1BTOOYWLvH3gX38cq+iLwljHHTnMtlDfg01Q==}
     engines: {node: '>= 18'}
     hasBin: true
     dev: false
