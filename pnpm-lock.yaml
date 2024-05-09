@@ -25,7 +25,7 @@ importers:
         version: 1.0.20(@sentry/astro@7.114.0(astro@4.7.1(@types/node@20.12.7)(typescript@5.4.5)))(astro@4.7.1(@types/node@20.12.7)(typescript@5.4.5))
       artalk:
         specifier: ^2.7.3
-        version: 2.8.5
+        version: 2.8.6
       astro:
         specifier: ^4.2.4
         version: 4.7.1(@types/node@20.12.7)(typescript@5.4.5)
@@ -1136,8 +1136,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  artalk@2.8.5:
-    resolution: {integrity: sha512-Ms2Zvxdf5Dn5RmhVDMyw+7MX3e5/3zk1EeEXtBUfWK2XeOjKM/jIT84vm+vR1m6o55FAJfxVvs72BeZWsIcSmw==}
+  artalk@2.8.6:
+    resolution: {integrity: sha512-Wt6x9F6A9l7Bw6y8tZayheHkJJ2tF0T3yZVxtqHTpDgZOKlOI91UzBvZ2bSjScayy7JH9ZSAkTC/qVDODeUhbA==}
 
   assignment@2.0.0:
     resolution: {integrity: sha512-naMULXjtgCs9SVUEtyvJNt68aF18em7/W+dhbR59kbz9cXWPEvUkCun2tqlgqRPSqZaKPpqLc5ZnwL8jVmJRvw==}
@@ -4291,7 +4291,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  artalk@2.8.5:
+  artalk@2.8.6:
     dependencies:
       abortcontroller-polyfill: 1.7.5
       hanabi: 0.4.0
