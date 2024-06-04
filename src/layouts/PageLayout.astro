@@ -12,9 +12,9 @@ import Header from "../components/Header.astro";
 
     <slot name="meta" />
   </head>
-  <body>
+  <body class="font-sans text-gray-700 dark:text-gray-200 relative">
     <Header />
-    <main id="main">
+    <main id="main" class="px-7 py-10 overflow-x-hidden">
       <slot name="main" />
     </main>
     <!-- TODO: Footer -->

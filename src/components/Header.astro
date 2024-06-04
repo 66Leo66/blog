@@ -2,6 +2,22 @@
 
 ---
 
-<header class="font-sans">
-    Header
+<header class="z-40">
+    
+    <nav class="grid w-auto p-8 box-border">
+        <div><a href="/" class="font-semibold">Leo's Blog</a></div>
+        <div class="grid gap-5 auto-flow-col">
+            <a>Archive</a>
+            <a>Tags</a>
+        </div>
+    </nav>
 </header>
+
+<style>
+    nav {
+        grid-template-columns: auto max-content;
+    }
+    nav>* {
+        @apply m-auto;
+    }
+</style>
