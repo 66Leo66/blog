@@ -4,11 +4,11 @@
 
 <header class="z-40">
     
-    <nav class="grid w-auto p-8 box-border">
-        <div><a href="/" class="font-semibold">Leo's Blog</a></div>
-        <div class="grid gap-5 auto-flow-col">
-            <a>Archive</a>
-            <a>Tags</a>
+    <nav class="flex w-auto p-8 box-border">
+        <div class="flex-auto w-auto"><a href="/" class="font-600 text-xl">Leo's Blog</a></div>
+        <div class="grid gap-5 auto-flow-col nav-links">
+            <a href="#">Archive</a>
+            <a href="#">Tags</a>
         </div>
     </nav>
 </header>
@@ -19,5 +19,8 @@
     }
     nav>* {
         @apply m-auto;
+    }
+    .nav-links>a {
+        @apply opacity-60 hover:opacity-100 transition-duration-200 ease transition-property-opacity;
     }
 </style>

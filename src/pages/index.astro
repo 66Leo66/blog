@@ -1,12 +1,13 @@
 ---
-import ProseLayout from "../layouts/ProseLayout.astro"
+import ProseLayout from "../layouts/ProseLayout.astro";
 ---
 
 <ProseLayout title="Leo's Blog">
-	<h1 class="mb-0 font-800 text-4xl" slot="heading">Welcome to my blog!</h1>
+	<Fragment slot="heading">Welcome to my Blog!</Fragment>
 
 	<Fragment slot="content">
 		<p>Hey, I'm Leo!</p>
 		<p>Nice to meet you!</p>
+		<p>While this brand-new writen-from-scratch Astro-powered blog is still under construction, you will not be able to view the old site because there's actually not much stuff there.</p>
 	</Fragment>
 </ProseLayout>

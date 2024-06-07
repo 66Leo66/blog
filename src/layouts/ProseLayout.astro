@@ -12,11 +12,13 @@ const { title } = Astro.props;
   <title slot="meta">Leo's Blog</title>
 
   <Fragment slot="main">
-    <div class="prose m-auto mb-8">
-      <slot name="heading" />
+    <div class="prose prose-black m-auto mb-8">
+      <h1 class="mb-0 font-800 text-4xl">
+        <slot name="heading" />
+    </h1>
     </div>
     <article>
-        <div class="prose m-auto">
+        <div class="prose text-4 m-auto prose-slate">
             <slot name="content" />
         </div>
     </article>
