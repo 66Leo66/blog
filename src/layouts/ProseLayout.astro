@@ -13,14 +13,20 @@ const { title } = Astro.props;
 
   <Fragment slot="main">
     <div class="prose prose-black m-auto mb-8">
-      <h1 class="mb-0 font-800 text-4xl">
+      <h1 class="mb-0 font-800 text-4xl font-sans">
         <slot name="heading" />
     </h1>
     </div>
     <article>
-        <div class="prose text-4 m-auto prose-slate">
+        <div class="prose text-4 m-auto prose-slate line-height-relaxed ">
             <slot name="content" />
         </div>
     </article>
   </Fragment>
 </PageLayout>
+
+<style is:global>
+  .prose > p {
+    @apply my-4;
+  }
+</style>

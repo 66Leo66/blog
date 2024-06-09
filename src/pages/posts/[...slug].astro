@@ -1,0 +1,25 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection } from 'astro:content';
+import ProseLayout from "../../layouts/ProseLayout.astro";
+
+// 1. 为每个集合条目生成一个新路径
+export const getStaticPaths = (async () => {
+    const blogPosts = await getCollection('posts');
+    return blogPosts.map(entry => ({
+    params: { slug: entry.slug }, props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+// 2. 当渲染的时候，你可以直接从属性中得到条目
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+---
+
+<ProseLayout title={`${entry.data.title}`}>
+    <Fragment slot="heading">{entry.data.title}</Fragment>
+
+    <Fragment slot="content">
+        <Content />
+    </Fragment>
+</ProseLayout>
