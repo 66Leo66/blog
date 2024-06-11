@@ -33,8 +33,8 @@ importers:
         specifier: ^0.1.3
         version: 0.1.3
       mathlive:
-        specifier: ^0.98.6
-        version: 0.98.6
+        specifier: ^0.99.0
+        version: 0.99.0
       rehype-katex:
         specifier: ^7.0.0
         version: 7.0.0
@@ -335,8 +335,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@cortex-js/compute-engine@0.22.0':
-    resolution: {integrity: sha512-TPePa4bCbgZO/xh++3ZMNhJD7eLNTFxctbqHtIYbQjLLlUX585HaWeZqIptao4Xi59jZZtP3bPb19txTb251ZA==}
+  '@cortex-js/compute-engine@0.24.1':
+    resolution: {integrity: sha512-B9pLaZFC1vBrL64yR2LQWy2sj1E/+wtwIVokPuPqX8YWXwj9W2AMVyS9pSMN8gEdjpAC50nSmtL6110Rgi7dKA==}
     engines: {node: '>=16.14.2', npm: '>=8.5.0'}
 
   '@emmetio/abbreviation@2.3.3':
@@ -2458,8 +2458,8 @@ packages:
   marky@1.2.5:
     resolution: {integrity: sha512-q9JtQJKjpsVxCRVgQ+WapguSbKC3SQ5HEzFGPAJMStgh3QjCawp00UKv3MTTAArTmGmmPUvllHZoNbZ3gs0I+Q==}
 
-  mathlive@0.98.6:
-    resolution: {integrity: sha512-5rRnVa1Xc9iD+f3sfQ6CWgL0GIIq0Fl6A/FbM5gZcrMaEeYn34DFIxUnLLLMgpb8vc/LZhJ1s9dDCqxv2bYTBw==}
+  mathlive@0.99.0:
+    resolution: {integrity: sha512-AyGSCAcm4MAwQLH1J7dEXCPmdssjuuz3gzEziPSIjHqYOSEQF/C3H2+4UdO9ixCbEeVtLia358xVdRSmbkTwAA==}
     engines: {node: '>=16.14.2', npm: '>=8.5.0'}
 
   mdast-util-definitions@6.0.0:
@@ -3934,7 +3934,7 @@ snapshots:
   '@biomejs/cli-win32-x64@1.8.1':
     optional: true
 
-  '@cortex-js/compute-engine@0.22.0':
+  '@cortex-js/compute-engine@0.24.1':
     dependencies:
       complex.js: 2.1.1
       decimal.js: 10.4.3
@@ -6286,9 +6286,9 @@ snapshots:
 
   marky@1.2.5: {}
 
-  mathlive@0.98.6:
+  mathlive@0.99.0:
     dependencies:
-      '@cortex-js/compute-engine': 0.22.0
+      '@cortex-js/compute-engine': 0.24.1
 
   mdast-util-definitions@6.0.0:
     dependencies:
