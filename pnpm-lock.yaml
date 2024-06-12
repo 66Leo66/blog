@@ -33,8 +33,8 @@ importers:
         specifier: ^0.1.3
         version: 0.1.3
       mathlive:
-        specifier: ^0.99.0
-        version: 0.99.0
+        specifier: ^0.100.0
+        version: 0.100.0
       rehype-katex:
         specifier: ^7.0.0
         version: 7.0.0
@@ -2454,8 +2454,8 @@ packages:
   marky@1.2.5:
     resolution: {integrity: sha512-q9JtQJKjpsVxCRVgQ+WapguSbKC3SQ5HEzFGPAJMStgh3QjCawp00UKv3MTTAArTmGmmPUvllHZoNbZ3gs0I+Q==}
 
-  mathlive@0.99.0:
-    resolution: {integrity: sha512-AyGSCAcm4MAwQLH1J7dEXCPmdssjuuz3gzEziPSIjHqYOSEQF/C3H2+4UdO9ixCbEeVtLia358xVdRSmbkTwAA==}
+  mathlive@0.100.0:
+    resolution: {integrity: sha512-gZJTw/7pzqsfpZBt5yr7lBeMErDvqnbe2U1LOsS9drrtH9oJuT/cH0LxgC/8Hid4M4/DQ0HQcW1TvjIX399MqQ==}
     engines: {node: '>=16.14.2', npm: '>=8.5.0'}
 
   mdast-util-definitions@6.0.0:
@@ -6297,7 +6297,7 @@ snapshots:
 
   marky@1.2.5: {}
 
-  mathlive@0.99.0:
+  mathlive@0.100.0:
     dependencies:
       '@cortex-js/compute-engine': 0.24.1
 
