@@ -19,16 +19,16 @@ importers:
         version: 3.1.6
       '@sentry/astro':
         specifier: ^8.2.1
-        version: 8.10.0(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5))
+        version: 8.10.0(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5))
       '@spotlightjs/astro':
         specifier: ^1.0.20
-        version: 1.0.20(@sentry/astro@8.10.0(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5)))(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5))
+        version: 1.0.20(@sentry/astro@8.10.0(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5)))(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5))
       artalk:
         specifier: ^2.8.6
         version: 2.8.7
       astro:
         specifier: ^4.8.6
-        version: 4.10.3(@types/node@20.14.5)(typescript@5.4.5)
+        version: 4.11.0(@types/node@20.14.5)(typescript@5.4.5)
       astro-lighthouse:
         specifier: ^0.1.3
         version: 0.1.3
@@ -1410,8 +1410,8 @@ packages:
   astro-lighthouse@0.1.3:
     resolution: {integrity: sha512-L/XBl+0qYfBorOEzqbMmV1m1exyZdCHwPwdm6tXUUzPneU+7X8DW0zpwgRGgQLdm8Tzzq7uCJ26x6ZuTBZvOaw==}
 
-  astro@4.10.3:
-    resolution: {integrity: sha512-TWCJM+Vg+y0UoEz/H75rfp/u2N8yxeQQ2UrU9+fMcbjlzQJtGGDq3ApdundqPZgAuCryRuJnrKytStMZCFnlvQ==}
+  astro@4.11.0:
+    resolution: {integrity: sha512-3VWxz/08sChQIX68tuE7Y769DUdjsT3Zq2/y4SkrDRlwN9IZ/aebwcRWr5a2yMSdO2vpFxtEdobq0mKnMlLErg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1752,8 +1752,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.4.803:
-    resolution: {integrity: sha512-61H9mLzGOCLLVsnLiRzCbc63uldP0AniRYPV3hbGVtONA1pI7qSGILdbofR7A8TMbOypDocEAjH/e+9k1QIe3g==}
+  electron-to-chromium@1.4.807:
+    resolution: {integrity: sha512-kSmJl2ZwhNf/bcIuCH/imtNOKlpkLDn2jqT5FJ+/0CXjhnFaOa9cOe9gHKKy71eM49izwuQjZhKk+lWQ1JxB7A==}
 
   emmet@2.4.7:
     resolution: {integrity: sha512-O5O5QNqtdlnQM2bmKHtJgyChcrFMgQuulI+WdiOw2NArzprUqqxUW6bgYtKvzKgrsYpuLWalOkdhNP+1jluhCA==}
@@ -3093,6 +3093,9 @@ packages:
   unified@11.0.4:
     resolution: {integrity: sha512-apMPnyLjAX+ty4OrNap7yumyVAMlKx5IWU2wlzzUdYJO9A8f1p9m/gywF/GM2ZDFcjQPrx59Mc90KwmxsoklxQ==}
 
+  unified@11.0.5:
+    resolution: {integrity: sha512-xKvGhPWw3k84Qjh8bI3ZeJjqnyadK+GEFtazSfZv/rKeTkTjOJho6mFqh2SM96iIcZokxiOpg78GazTSg8+KHA==}
+
   unique-string@2.0.0:
     resolution: {integrity: sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==}
     engines: {node: '>=8'}
@@ -3490,7 +3493,7 @@ snapshots:
       remark-rehype: 11.1.0
       remark-smartypants: 2.1.0
       shiki: 1.7.0
-      unified: 11.0.4
+      unified: 11.0.5
       unist-util-remove-position: 5.0.0
       unist-util-visit: 5.0.0
       unist-util-visit-parents: 6.0.1
@@ -4372,7 +4375,7 @@ snapshots:
       '@sentry/types': 8.10.0
       '@sentry/utils': 8.10.0
 
-  '@sentry/astro@8.10.0(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5))':
+  '@sentry/astro@8.10.0(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5))':
     dependencies:
       '@sentry/browser': 8.10.0
       '@sentry/core': 8.10.0
@@ -4380,7 +4383,7 @@ snapshots:
       '@sentry/types': 8.10.0
       '@sentry/utils': 8.10.0
       '@sentry/vite-plugin': 2.18.0
-      astro: 4.10.3(@types/node@20.14.5)(typescript@5.4.5)
+      astro: 4.11.0(@types/node@20.14.5)(typescript@5.4.5)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4557,12 +4560,12 @@ snapshots:
 
   '@shikijs/core@1.7.0': {}
 
-  '@spotlightjs/astro@1.0.20(@sentry/astro@8.10.0(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5)))(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5))':
+  '@spotlightjs/astro@1.0.20(@sentry/astro@8.10.0(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5)))(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5))':
     dependencies:
-      '@sentry/astro': 8.10.0(astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5))
+      '@sentry/astro': 8.10.0(astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5))
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.10.3(@types/node@20.14.5)(typescript@5.4.5)
+      astro: 4.11.0(@types/node@20.14.5)(typescript@5.4.5)
       source-map: 0.7.4
 
   '@spotlightjs/overlay@1.8.3': {}
@@ -5037,7 +5040,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  astro@4.10.3(@types/node@20.14.5)(typescript@5.4.5):
+  astro@4.11.0(@types/node@20.14.5)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.8.0
       '@astrojs/internal-helpers': 0.4.0
@@ -5180,7 +5183,7 @@ snapshots:
   browserslist@4.23.1:
     dependencies:
       caniuse-lite: 1.0.30001636
-      electron-to-chromium: 1.4.803
+      electron-to-chromium: 1.4.807
       node-releases: 2.0.14
       update-browserslist-db: 1.0.16(browserslist@4.23.1)
 
@@ -5417,7 +5420,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.4.803: {}
+  electron-to-chromium@1.4.807: {}
 
   emmet@2.4.7:
     dependencies:
@@ -6729,7 +6732,7 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
       hast-util-from-html: 2.0.1
-      unified: 11.0.4
+      unified: 11.0.5
 
   rehype-raw@7.0.0:
     dependencies:
@@ -6741,14 +6744,14 @@ snapshots:
     dependencies:
       '@types/hast': 3.0.4
       hast-util-to-html: 9.0.1
-      unified: 11.0.4
+      unified: 11.0.5
 
   rehype@13.0.1:
     dependencies:
       '@types/hast': 3.0.4
       rehype-parse: 9.0.0
       rehype-stringify: 10.0.0
-      unified: 11.0.4
+      unified: 11.0.5
 
   remark-gfm@4.0.0:
     dependencies:
@@ -6757,7 +6760,7 @@ snapshots:
       micromark-extension-gfm: 3.0.0
       remark-parse: 11.0.0
       remark-stringify: 11.0.0
-      unified: 11.0.4
+      unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
@@ -6775,7 +6778,7 @@ snapshots:
       '@types/mdast': 4.0.4
       mdast-util-from-markdown: 2.0.1
       micromark-util-types: 2.0.0
-      unified: 11.0.4
+      unified: 11.0.5
     transitivePeerDependencies:
       - supports-color
 
@@ -6784,7 +6787,7 @@ snapshots:
       '@types/hast': 3.0.4
       '@types/mdast': 4.0.4
       mdast-util-to-hast: 13.2.0
-      unified: 11.0.4
+      unified: 11.0.5
       vfile: 6.0.1
 
   remark-smartypants@2.1.0:
@@ -6797,7 +6800,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       mdast-util-to-markdown: 2.1.0
-      unified: 11.0.4
+      unified: 11.0.5
 
   request-light@0.7.0: {}
 
@@ -7146,6 +7149,16 @@ snapshots:
       vfile: 5.3.7
 
   unified@11.0.4:
+    dependencies:
+      '@types/unist': 3.0.2
+      bail: 2.0.2
+      devlop: 1.1.0
+      extend: 3.0.2
+      is-plain-obj: 4.1.0
+      trough: 2.2.0
+      vfile: 6.0.1
+
+  unified@11.0.5:
     dependencies:
       '@types/unist': 3.0.2
       bail: 2.0.2
