@@ -26,7 +26,7 @@
     "typescript": "^5.4.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.8.2",
+    "@biomejs/biome": "1.8.3",
     "@types/sanitize-html": "^2.11.0",
     "@unocss/reset": "^0.61.0",
     "unocss": "^0.61.0"
