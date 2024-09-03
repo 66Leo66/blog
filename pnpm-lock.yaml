@@ -25,7 +25,7 @@ importers:
         version: 1.0.20(@sentry/astro@8.28.0(astro@4.15.1(@types/node@22.5.2)(rollup@4.21.1)(typescript@5.5.4)))(astro@4.15.1(@types/node@22.5.2)(rollup@4.21.1)(typescript@5.5.4))
       artalk:
         specifier: ^2.8.6
-        version: 2.8.7
+        version: 2.9.0(marked@12.0.2)
       astro:
         specifier: ^4.8.6
         version: 4.15.1(@types/node@22.5.2)(rollup@4.21.1)(typescript@5.5.4)
@@ -1397,9 +1397,6 @@ packages:
   '@vscode/l10n@0.0.18':
     resolution: {integrity: sha512-KYSIHVmslkaCDyw013pphY+d7x1qV8IZupYfeIfzNA+nsaWHbn5uPuQRvdRFsa9zFzGeudPuoGoZ1Op4jrJXIQ==}
 
-  abortcontroller-polyfill@1.7.5:
-    resolution: {integrity: sha512-JMJ5soJWP18htbbxJjG7bG6yuI6pRhgJ0scHHTfkUjf6wjP912xZWvM+A4sJK3gqd9E8fcPbDnOefbA9Th/FIQ==}
-
   acorn-import-assertions@1.9.0:
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
     peerDependencies:
@@ -1472,11 +1469,10 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  artalk@2.8.7:
-    resolution: {integrity: sha512-Pl6oKnG0mLf6/c0X93SEmUm7RqqO1zsfvf4j8EzO25pvcDn9pJdYQqLrWKupaHwO7JLvEcgq5pBBrJCLmBKGpw==}
-
-  assignment@2.0.0:
-    resolution: {integrity: sha512-naMULXjtgCs9SVUEtyvJNt68aF18em7/W+dhbR59kbz9cXWPEvUkCun2tqlgqRPSqZaKPpqLc5ZnwL8jVmJRvw==}
+  artalk@2.9.0:
+    resolution: {integrity: sha512-KxG1+Ho7VBY+PC+A2U8VbHl2sHpG+Z4aZjiuJ40v1+BzqlPpudEb5D8tt3CHWPvUepdoBVa0BmQUmrlpmwzkhQ==}
+    peerDependencies:
+      marked: ^14.1.0
 
   ast-types@0.13.4:
     resolution: {integrity: sha512-x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==}
@@ -1665,10 +1661,6 @@ packages:
   commander@8.3.0:
     resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
     engines: {node: '>= 12'}
-
-  comment-regex@1.0.1:
-    resolution: {integrity: sha512-IWlN//Yfby92tOIje7J18HkNmWRR7JESA/BK8W7wqY/akITpU5B0JQWnbTjCfdChSrDNb0DrdA9jfAxiiBXyiQ==}
-    engines: {node: '>=0.10.0'}
 
   common-ancestor-path@1.0.1:
     resolution: {integrity: sha512-L3sHRo1pXXEqX8VU28kfgUY+YGsk09hPqZiZmLacNib6XNTCM8ubYeT7ryXQw8asB1sKgcU5lkB7ONug08aB8w==}
@@ -2042,9 +2034,6 @@ packages:
     resolution: {integrity: sha512-ax7ZYomf6jqPTQ4+XCpUGyXKHk5WweS+e05MBO4/y3WJ5RkmPXNKvX+bx1behVILVwr6JSQvZAku021CHPXG3Q==}
     engines: {node: '>=10'}
 
-  hanabi@0.4.0:
-    resolution: {integrity: sha512-ixJH94fwmmVzUSdxl7TMkVZJmsq4d2JKrxedpM5V1V+91iVHL0q6NnJi4xiDahK6Vo00xT17H8H6b4F6RVbsOg==}
-
   has-flag@3.0.0:
     resolution: {integrity: sha512-sKJf1+ceQBr4SMkvQnBDNDtf4TXpVhVGateu0t918bl30FnbE2m4vNLX+VWe/dpjlb+HugGYzW7uQXH98HPEYw==}
     engines: {node: '>=4'}
@@ -2091,10 +2080,6 @@ packages:
 
   hastscript@8.0.0:
     resolution: {integrity: sha512-dMOtzCEd3ABUeSIISmrETiKuyydk1w0pa+gE/uormcTpSYuaNJPbX1NU3JLyscSLjwAQM8bWMhhIlnCqnRvDTw==}
-
-  he@0.5.0:
-    resolution: {integrity: sha512-DoufbNNOFzwRPy8uecq+j+VCPQ+JyDelHTmSgygrA5TsR8Cbw4Qcir5sGtWiusB4BdT89nmlaVDhSJOqC/33vw==}
-    hasBin: true
 
   html-escaper@3.0.3:
     resolution: {integrity: sha512-RuMffC89BOWQoY0WKGpIhn5gX3iI54O6nRA0yC124NYVtzjmFWBIiFd8M0x+ZdX0P9R4lADg1mgP8C7PxGOWuQ==}
@@ -2145,9 +2130,6 @@ packages:
   imurmurhash@0.1.4:
     resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
     engines: {node: '>=0.8.19'}
-
-  insane@2.6.2:
-    resolution: {integrity: sha512-BqEL1CJsjJi+/C/zKZxv31zs3r6zkLH5Nz1WMFb7UBX2KHY2yXDpbFTSEmNHzomBbGDysIfkTX55A0mQZ2CQiw==}
 
   intl-messageformat@10.5.13:
     resolution: {integrity: sha512-9X3kzxrXlaFNtXwEQV7UWk1KwIyEMguQyuj2I0NDDMcCd3+1d/51tL7nLzi7YE/HVe9G3v2rEMxQl61G4gmTIQ==}
@@ -5048,8 +5030,6 @@ snapshots:
 
   '@vscode/l10n@0.0.18': {}
 
-  abortcontroller-polyfill@1.7.5: {}
-
   acorn-import-assertions@1.9.0(acorn@8.12.1):
     dependencies:
       acorn: 8.12.1
@@ -5119,14 +5099,9 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  artalk@2.8.7:
+  artalk@2.9.0(marked@12.0.2):
     dependencies:
-      abortcontroller-polyfill: 1.7.5
-      hanabi: 0.4.0
-      insane: 2.6.2
       marked: 12.0.2
-
-  assignment@2.0.0: {}
 
   ast-types@0.13.4:
     dependencies:
@@ -5399,8 +5374,6 @@ snapshots:
   comma-separated-tokens@2.0.3: {}
 
   commander@8.3.0: {}
-
-  comment-regex@1.0.1: {}
 
   common-ancestor-path@1.0.1: {}
 
@@ -5764,10 +5737,6 @@ snapshots:
     dependencies:
       duplexer: 0.1.2
 
-  hanabi@0.4.0:
-    dependencies:
-      comment-regex: 1.0.1
-
   has-flag@3.0.0: {}
 
   hasown@2.0.2:
@@ -5883,8 +5852,6 @@ snapshots:
       property-information: 6.5.0
       space-separated-tokens: 2.0.2
 
-  he@0.5.0: {}
-
   html-escaper@3.0.3: {}
 
   html-void-elements@3.0.0: {}
@@ -5956,11 +5923,6 @@ snapshots:
       - supports-color
 
   imurmurhash@0.1.4: {}
-
-  insane@2.6.2:
-    dependencies:
-      assignment: 2.0.0
-      he: 0.5.0
 
   intl-messageformat@10.5.13:
     dependencies:
