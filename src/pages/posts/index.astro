@@ -1,0 +1,30 @@
+---
+import ProseLayout from "../../layouts/ProseLayout.astro";
+import { getCollection } from "astro:content";
+
+const blogPosts = await getCollection('posts');
+
+---
+
+<ProseLayout title="Leo's Blog">
+	<Fragment slot="heading">Posts</Fragment>
+
+	<Fragment slot="content">
+        <!-- Larger blank -->
+        <div class="h-8"></div>
+		<ul>
+            {blogPosts.map((entry) => (
+                <li>
+                    <!-- Link -->
+                    <a href={`/posts/${entry.slug}`} class="text-lg">{entry.data.title}</a>
+                </li>
+            ))}
+        </ul>
+	</Fragment>
+</ProseLayout>
+
+<style>
+    ul>li>a {
+        @apply opacity-60 hover:opacity-100 transition-duration-200 ease transition-property-opacity;
+    }
+</style>
