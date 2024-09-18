@@ -25,7 +25,7 @@ importers:
         version: 1.0.20(@sentry/astro@8.30.0(astro@4.15.7(@types/node@22.5.4)(rollup@4.21.3)(typescript@5.6.2)))(astro@4.15.7(@types/node@22.5.4)(rollup@4.21.3)(typescript@5.6.2))
       artalk:
         specifier: ^2.8.6
-        version: 2.9.0(marked@12.0.2)
+        version: 2.9.1(marked@12.0.2)
       astro:
         specifier: ^4.8.6
         version: 4.15.7(@types/node@22.5.4)(rollup@4.21.3)(typescript@5.6.2)
@@ -1435,8 +1435,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  artalk@2.9.0:
-    resolution: {integrity: sha512-KxG1+Ho7VBY+PC+A2U8VbHl2sHpG+Z4aZjiuJ40v1+BzqlPpudEb5D8tt3CHWPvUepdoBVa0BmQUmrlpmwzkhQ==}
+  artalk@2.9.1:
+    resolution: {integrity: sha512-IFo9XqWDalsHy8BsmMA5SSB9bozBa/sBhTm/+O5KwA6DnC95lFKv7C6ScMx/Xa4ue5qSQ7VV5vxRgCh/raohkQ==}
     peerDependencies:
       marked: ^14.1.0
 
@@ -5020,7 +5020,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  artalk@2.9.0(marked@12.0.2):
+  artalk@2.9.1(marked@12.0.2):
     dependencies:
       marked: 12.0.2
 
