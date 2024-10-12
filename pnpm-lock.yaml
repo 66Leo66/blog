@@ -19,16 +19,16 @@ importers:
         version: 3.2.0
       '@sentry/astro':
         specifier: ^8.2.1
-        version: 8.34.0(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+        version: 8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/astro':
         specifier: ^1.0.20
-        version: 1.0.20(@sentry/astro@8.34.0(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+        version: 1.0.20(@sentry/astro@8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       artalk:
         specifier: ^2.8.6
         version: 2.9.1(marked@12.0.2)
       astro:
         specifier: ^4.8.6
-        version: 4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+        version: 4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
       astro-lighthouse:
         specifier: ^0.1.3
         version: 0.1.3
@@ -1465,8 +1465,8 @@ packages:
   astro-lighthouse@0.1.3:
     resolution: {integrity: sha512-L/XBl+0qYfBorOEzqbMmV1m1exyZdCHwPwdm6tXUUzPneU+7X8DW0zpwgRGgQLdm8Tzzq7uCJ26x6ZuTBZvOaw==}
 
-  astro@4.16.1:
-    resolution: {integrity: sha512-ZeZd+L147HHgHmvoSkve7KM3EutV+hY0mOCa4PwARHEFAAh+omo4MUNoTWsFkfq7ozTgR0PCXQwslrZduoWHNg==}
+  astro@4.16.2:
+    resolution: {integrity: sha512-Dfkpyt6sA+nv6LnOJr+7bt+gQF5Qh02yqVgyes4c4SvcPScteq1bLX22/z/XW+VU0vlciJOMiM8GWtcDiF6gUQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2658,6 +2658,9 @@ packages:
 
   parse5@7.1.2:
     resolution: {integrity: sha512-Czj1WaSVpaoj0wbhMzLmWD69anp2WH7FXMB9n1Sy8/ZFF9jolSQVMu1Ij5WIyGmcBmhk7EOndpO4mIpihVqAXw==}
+
+  parse5@7.2.0:
+    resolution: {integrity: sha512-ZkDsAOcxsUMZ4Lz5fVciOehNcJ+Gb8gTzcA4yl3wnc273BAybYWrQ+Ks/OjCjSEpjvQkDSeZbybK9qj2VHHdGA==}
 
   path-browserify@1.0.1:
     resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
@@ -4457,7 +4460,7 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
 
-  '@sentry/astro@8.34.0(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
+  '@sentry/astro@8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
       '@sentry/browser': 8.34.0
       '@sentry/core': 8.34.0
@@ -4465,7 +4468,7 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
       '@sentry/vite-plugin': 2.22.5
-      astro: 4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4673,12 +4676,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@1.0.20(@sentry/astro@8.34.0(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
+  '@spotlightjs/astro@1.0.20(@sentry/astro@8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
-      '@sentry/astro': 8.34.0(astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+      '@sentry/astro': 8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
       source-map: 0.7.4
 
   '@spotlightjs/overlay@1.8.3': {}
@@ -5055,7 +5058,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  astro@4.16.1(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3):
+  astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5706,7 +5709,7 @@ snapshots:
       '@types/hast': 3.0.4
       devlop: 1.1.0
       hast-util-from-parse5: 8.0.1
-      parse5: 7.1.2
+      parse5: 7.2.0
       vfile: 6.0.3
       vfile-message: 4.0.2
 
@@ -5717,7 +5720,7 @@ snapshots:
       devlop: 1.1.0
       hastscript: 8.0.0
       property-information: 6.5.0
-      vfile: 6.0.3
+      vfile: 6.0.2
       vfile-location: 5.0.3
       web-namespaces: 2.0.1
 
@@ -5738,7 +5741,7 @@ snapshots:
       hast-util-to-parse5: 8.0.0
       html-void-elements: 3.0.0
       mdast-util-to-hast: 13.2.0
-      parse5: 7.1.2
+      parse5: 7.2.0
       unist-util-position: 5.0.0
       unist-util-visit: 5.0.0
       vfile: 6.0.3
@@ -6599,6 +6602,10 @@ snapshots:
     dependencies:
       entities: 4.5.0
 
+  parse5@7.2.0:
+    dependencies:
+      entities: 4.5.0
+
   path-browserify@1.0.1: {}
 
   path-exists@4.0.0: {}
@@ -7268,7 +7275,7 @@ snapshots:
   vfile-location@5.0.3:
     dependencies:
       '@types/unist': 3.0.3
-      vfile: 6.0.3
+      vfile: 6.0.2
 
   vfile-message@4.0.2:
     dependencies:
