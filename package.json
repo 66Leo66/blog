@@ -12,7 +12,9 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/mdx": "^3.1.8",
+    "@expressive-code/plugin-line-numbers": "^0.37.0",
     "astro": "^4.16.2",
+    "astro-expressive-code": "^0.37.0",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
