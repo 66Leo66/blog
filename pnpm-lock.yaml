@@ -19,16 +19,16 @@ importers:
         version: 3.2.0
       '@sentry/astro':
         specifier: ^8.2.1
-        version: 8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+        version: 8.34.0(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/astro':
         specifier: ^1.0.20
-        version: 1.0.20(@sentry/astro@8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+        version: 1.0.20(@sentry/astro@8.34.0(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       artalk:
         specifier: ^2.8.6
         version: 2.9.1(marked@12.0.2)
       astro:
         specifier: ^4.8.6
-        version: 4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+        version: 4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
       astro-lighthouse:
         specifier: ^0.1.3
         version: 0.1.3
@@ -1465,8 +1465,8 @@ packages:
   astro-lighthouse@0.1.3:
     resolution: {integrity: sha512-L/XBl+0qYfBorOEzqbMmV1m1exyZdCHwPwdm6tXUUzPneU+7X8DW0zpwgRGgQLdm8Tzzq7uCJ26x6ZuTBZvOaw==}
 
-  astro@4.16.2:
-    resolution: {integrity: sha512-Dfkpyt6sA+nv6LnOJr+7bt+gQF5Qh02yqVgyes4c4SvcPScteq1bLX22/z/XW+VU0vlciJOMiM8GWtcDiF6gUQ==}
+  astro@4.16.3:
+    resolution: {integrity: sha512-0IrnbCUprAyfeZ8Au/d/d0ssrYGMAZOZ1K3fX7GxI0OwUhkA9bSex0+ywiyVNiVZE5uRlTKRSkvLNKYQWdtHqw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1975,8 +1975,8 @@ packages:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
 
-  get-east-asian-width@1.2.0:
-    resolution: {integrity: sha512-2nk+7SIVb14QrgXFHcm84tD4bKQz0RxPuMT8Ag5KPOq7J5fEmAg0UbXdTOSHqNuHSU28k55qnceesxXRZGzKWA==}
+  get-east-asian-width@1.3.0:
+    resolution: {integrity: sha512-vpeMIQKxczTD/0s2CdEWHcb0eeJe6TFjxb+J5xgX7hScxqrGuyjmv4c1D4A/gelKfyox0gJJwIHF+fLjeaM8kQ==}
     engines: {node: '>=18'}
 
   get-stream@5.2.0:
@@ -4460,7 +4460,7 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
 
-  '@sentry/astro@8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
+  '@sentry/astro@8.34.0(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
       '@sentry/browser': 8.34.0
       '@sentry/core': 8.34.0
@@ -4468,7 +4468,7 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
       '@sentry/vite-plugin': 2.22.5
-      astro: 4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4676,12 +4676,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@1.0.20(@sentry/astro@8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
+  '@spotlightjs/astro@1.0.20(@sentry/astro@8.34.0(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
-      '@sentry/astro': 8.34.0(astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+      '@sentry/astro': 8.34.0(astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
       source-map: 0.7.4
 
   '@spotlightjs/overlay@1.8.3': {}
@@ -5058,7 +5058,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  astro@4.16.2(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3):
+  astro@4.16.3(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5629,7 +5629,7 @@ snapshots:
 
   get-caller-file@2.0.5: {}
 
-  get-east-asian-width@1.2.0: {}
+  get-east-asian-width@1.3.0: {}
 
   get-stream@5.2.0:
     dependencies:
@@ -5720,7 +5720,7 @@ snapshots:
       devlop: 1.1.0
       hastscript: 8.0.0
       property-information: 6.5.0
-      vfile: 6.0.2
+      vfile: 6.0.3
       vfile-location: 5.0.3
       web-namespaces: 2.0.1
 
@@ -7044,7 +7044,7 @@ snapshots:
   string-width@7.2.0:
     dependencies:
       emoji-regex: 10.4.0
-      get-east-asian-width: 1.2.0
+      get-east-asian-width: 1.3.0
       strip-ansi: 7.1.0
 
   stringify-entities@4.0.4:
@@ -7275,7 +7275,7 @@ snapshots:
   vfile-location@5.0.3:
     dependencies:
       '@types/unist': 3.0.3
-      vfile: 6.0.2
+      vfile: 6.0.3
 
   vfile-message@4.0.2:
     dependencies:
