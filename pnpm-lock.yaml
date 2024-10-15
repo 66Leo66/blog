@@ -13,22 +13,22 @@ importers:
         version: 0.9.4(typescript@5.6.3)
       '@astrojs/rss':
         specifier: ^4.0.6
-        version: 4.0.8
+        version: 4.0.9
       '@astrojs/sitemap':
         specifier: ^3.1.4
         version: 3.2.1
       '@sentry/astro':
         specifier: ^8.2.1
-        version: 8.34.0(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+        version: 8.34.0(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/astro':
         specifier: ^1.0.20
-        version: 1.0.20(@sentry/astro@8.34.0(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+        version: 1.0.20(@sentry/astro@8.34.0(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       artalk:
         specifier: ^2.8.6
         version: 2.9.1(marked@12.0.2)
       astro:
         specifier: ^4.8.6
-        version: 4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+        version: 4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
       astro-lighthouse:
         specifier: ^0.1.3
         version: 0.1.3
@@ -107,8 +107,8 @@ packages:
     resolution: {integrity: sha512-Z9IYjuXSArkAUx3N6xj6+Bnvx8OdUSHA8YoOgyepp3+zJmtVYJIl/I18GozdJVW1p5u/CNpl3Km7/gwTJK85cw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
 
-  '@astrojs/rss@4.0.8':
-    resolution: {integrity: sha512-63UYWS2xj00+N79JPiLeHiBBB3nHfjFlJ81T9a+UaYQ7aUZyvU0E9JdZeuONwHKKcSsvP+goPjWmoVifPToRGA==}
+  '@astrojs/rss@4.0.9':
+    resolution: {integrity: sha512-W1qeLc/WP1vMS5xXa+BnaLU0paeSeGjN8RJVAoBaOIkQuKXjIUA9hvPno89heo73in5i67g40gy70oeeHMqp6A==}
 
   '@astrojs/sitemap@3.2.1':
     resolution: {integrity: sha512-uxMfO8f7pALq0ADL6Lk68UV6dNYjJ2xGUzyjjVj60JLBs5a6smtlkBYv3tQ0DzoqwS7c9n4FUx5lgv0yPo/fgA==}
@@ -1462,8 +1462,8 @@ packages:
   astro-lighthouse@0.1.3:
     resolution: {integrity: sha512-L/XBl+0qYfBorOEzqbMmV1m1exyZdCHwPwdm6tXUUzPneU+7X8DW0zpwgRGgQLdm8Tzzq7uCJ26x6ZuTBZvOaw==}
 
-  astro@4.16.4:
-    resolution: {integrity: sha512-W/ETxHRkt9iEAj1RVSqV3bjSGaGXEFJHqeNpPhvJIj720hC3V/ZBDAd6FpMW291eiZPtxhGh+c/VDtkD6avPXQ==}
+  astro@4.16.5:
+    resolution: {integrity: sha512-v8mKWcEPN7hkfyVsMFWV0F8UgL4GUJKT172KTB7dePO3yJb64HBwCckC0QnA60QQh3jK6+2xwyWEc5QvCeqjtg==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3575,7 +3575,7 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/rss@4.0.8':
+  '@astrojs/rss@4.0.9':
     dependencies:
       fast-xml-parser: 4.5.0
       kleur: 4.1.5
@@ -4457,7 +4457,7 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
 
-  '@sentry/astro@8.34.0(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
+  '@sentry/astro@8.34.0(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
       '@sentry/browser': 8.34.0
       '@sentry/core': 8.34.0
@@ -4465,7 +4465,7 @@ snapshots:
       '@sentry/types': 8.34.0
       '@sentry/utils': 8.34.0
       '@sentry/vite-plugin': 2.22.5
-      astro: 4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4673,12 +4673,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@1.0.20(@sentry/astro@8.34.0(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
+  '@spotlightjs/astro@1.0.20(@sentry/astro@8.34.0(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
-      '@sentry/astro': 8.34.0(astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
+      '@sentry/astro': 8.34.0(astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3)
       source-map: 0.7.4
 
   '@spotlightjs/overlay@1.8.3': {}
@@ -5051,7 +5051,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  astro@4.16.4(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3):
+  astro@4.16.5(@types/node@22.7.5)(rollup@4.24.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
