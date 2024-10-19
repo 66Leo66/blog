@@ -6,10 +6,15 @@ import mdx from "@astrojs/mdx";
 import expressiveCode from "astro-expressive-code";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 
+import pagefind from "astro-pagefind";
+
+import solidJs from "@astrojs/solid-js";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://blog.6leo6.com",
   integrations: [
+    solidJs(),
     UnoCSS({
       injectReset: true,
     }),
@@ -23,6 +28,7 @@ export default defineConfig({
       },
     }),
     mdx(),
+    pagefind(),
   ],
   markdown: {},
 });

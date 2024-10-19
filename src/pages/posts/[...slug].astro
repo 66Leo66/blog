@@ -1,7 +1,7 @@
 ---
 import type { GetStaticPaths } from "astro";
 import { getCollection } from 'astro:content';
-import ProseLayout from "../../layouts/ProseLayout.astro";
+import ProseLayout from "@/layouts/ProseLayout.astro";
 
 // 1. 为每个集合条目生成一个新路径
 export const getStaticPaths = (async () => {

@@ -5,6 +5,15 @@
       {
         "name": "@astrojs/ts-plugin"
       }
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    },
+    "allowJs": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   }
 }
