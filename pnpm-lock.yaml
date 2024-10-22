@@ -19,16 +19,16 @@ importers:
         version: 3.2.1
       '@sentry/astro':
         specifier: ^8.2.1
-        version: 8.35.0(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))
+        version: 8.35.0(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/astro':
         specifier: ^1.0.20
-        version: 1.0.20(@sentry/astro@8.35.0(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))
+        version: 1.0.20(@sentry/astro@8.35.0(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))
       artalk:
         specifier: ^2.8.6
         version: 2.9.1(marked@12.0.2)
       astro:
         specifier: ^4.8.6
-        version: 4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)
+        version: 4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)
       astro-lighthouse:
         specifier: ^0.1.3
         version: 0.1.3
@@ -1494,8 +1494,8 @@ packages:
   astro-lighthouse@0.1.3:
     resolution: {integrity: sha512-L/XBl+0qYfBorOEzqbMmV1m1exyZdCHwPwdm6tXUUzPneU+7X8DW0zpwgRGgQLdm8Tzzq7uCJ26x6ZuTBZvOaw==}
 
-  astro@4.16.6:
-    resolution: {integrity: sha512-LMMbjr+4aN26MOyJzTdjM+Y+srpAIkx7IX9IcdF3eHQLGr8PgkioZp+VQExRfioDIyA2HY6ottVg3QccTzJqYA==}
+  astro@4.16.7:
+    resolution: {integrity: sha512-nON+8MUEkWTFwXbS4zsQIq4t0Fs42eulM4x236AL+qNnWfqNAOOqAnFxO1dxfJ1q+XopIBbbT9Mtev+0zH47PQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1556,8 +1556,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browserslist@4.24.0:
-    resolution: {integrity: sha512-Rmb62sR1Zpjql25eSanFGEhAxcFwfA1K0GuQcLoaJBAcENegrQut3hYdhXFF1obQfiDyqIW/cLM5HSJ/9k884A==}
+  browserslist@4.24.2:
+    resolution: {integrity: sha512-ZIc+Q62revdMcqC6aChtW4jz3My3klmCO1fEmINZY/8J3EpBg5/A/D0AKmBveUh6pgoeycoMkVMko84tuYS+Gg==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -1839,8 +1839,8 @@ packages:
   duplexer@0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
 
-  electron-to-chromium@1.5.40:
-    resolution: {integrity: sha512-LYm78o6if4zTasnYclgQzxEcgMoIcybWOhkATWepN95uwVVWV0/IW10v+2sIeHE+bIYWipLneTftVyQm45UY7g==}
+  electron-to-chromium@1.5.42:
+    resolution: {integrity: sha512-gIfKavKDw1mhvic9nbzA5lZw8QSHpdMwLwXc0cWidQz9B15pDoDdDH4boIatuFfeoCatb3a/NGL6CYRVFxGZ9g==}
 
   emmet@2.4.11:
     resolution: {integrity: sha512-23QPJB3moh/U9sT4rQzGgeyyGIrcM+GH5uVYg2C6wZIxAIJq7Ng3QLT79tl8FUwDXhyq9SusfknOrofAKqvgyQ==}
@@ -2378,8 +2378,8 @@ packages:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
 
-  markdown-table@3.0.3:
-    resolution: {integrity: sha512-Z1NL3Tb1M9wH4XESsCDEksWoKTdlUafKc4pt0GRwjUyXaCFZ+dc3g2erqB6zm3szA2IUSi7VnPI+o/9jnxh9hw==}
+  markdown-table@3.0.4:
+    resolution: {integrity: sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw==}
 
   marked@12.0.2:
     resolution: {integrity: sha512-qXUm7e/YKFoqFPYPa3Ukg9xlI5cyAtGmyEIzMfW//m6kXwCy2Ps9DYf5ioijFKQ8qyuscrHoY04iJGctu2Kg0Q==}
@@ -3693,7 +3693,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.25.8
       '@babel/helper-validator-option': 7.25.7
-      browserslist: 4.24.0
+      browserslist: 4.24.2
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -4506,7 +4506,7 @@ snapshots:
       '@sentry/types': 8.35.0
       '@sentry/utils': 8.35.0
 
-  '@sentry/astro@8.35.0(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))':
+  '@sentry/astro@8.35.0(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
       '@sentry/browser': 8.35.0
       '@sentry/core': 8.35.0
@@ -4514,7 +4514,7 @@ snapshots:
       '@sentry/types': 8.35.0
       '@sentry/utils': 8.35.0
       '@sentry/vite-plugin': 2.22.6
-      astro: 4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4722,12 +4722,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@1.0.20(@sentry/astro@8.35.0(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))':
+  '@spotlightjs/astro@1.0.20(@sentry/astro@8.35.0(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)))(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))':
     dependencies:
-      '@sentry/astro': 8.35.0(astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))
+      '@sentry/astro': 8.35.0(astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3))
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)
+      astro: 4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3)
       source-map: 0.7.4
 
   '@spotlightjs/overlay@1.8.3': {}
@@ -5163,7 +5163,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  astro@4.16.6(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3):
+  astro@4.16.7(@types/node@22.7.7)(rollup@4.24.0)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5302,12 +5302,12 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  browserslist@4.24.0:
+  browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001669
-      electron-to-chromium: 1.5.40
+      electron-to-chromium: 1.5.42
       node-releases: 2.0.18
-      update-browserslist-db: 1.1.1(browserslist@4.24.0)
+      update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
   buffer-crc32@0.2.13: {}
 
@@ -5543,7 +5543,7 @@ snapshots:
 
   duplexer@0.1.2: {}
 
-  electron-to-chromium@1.5.40: {}
+  electron-to-chromium@1.5.42: {}
 
   emmet@2.4.11:
     dependencies:
@@ -6186,7 +6186,7 @@ snapshots:
     dependencies:
       semver: 6.3.1
 
-  markdown-table@3.0.3: {}
+  markdown-table@3.0.4: {}
 
   marked@12.0.2: {}
 
@@ -6273,7 +6273,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
       devlop: 1.1.0
-      markdown-table: 3.0.3
+      markdown-table: 3.0.4
       mdast-util-from-markdown: 2.0.1
       mdast-util-to-markdown: 2.1.0
     transitivePeerDependencies:
@@ -7374,9 +7374,9 @@ snapshots:
       webpack-sources: 3.2.3
       webpack-virtual-modules: 0.5.0
 
-  update-browserslist-db@1.1.1(browserslist@4.24.0):
+  update-browserslist-db@1.1.1(browserslist@4.24.2):
     dependencies:
-      browserslist: 4.24.0
+      browserslist: 4.24.2
       escalade: 3.2.0
       picocolors: 1.1.1
 
