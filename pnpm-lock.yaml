@@ -19,16 +19,16 @@ importers:
         version: 3.2.1
       '@sentry/astro':
         specifier: ^8.2.1
-        version: 8.37.0(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))
+        version: 8.37.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))
       '@spotlightjs/astro':
         specifier: ^1.0.20
-        version: 1.0.20(@sentry/astro@8.37.0(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)))(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))
+        version: 1.0.20(@sentry/astro@8.37.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)))(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))
       artalk:
         specifier: ^2.8.6
         version: 2.9.1(marked@12.0.2)
       astro:
         specifier: ^4.8.6
-        version: 4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
+        version: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
       astro-lighthouse:
         specifier: ^0.1.3
         version: 0.1.3
@@ -1502,8 +1502,8 @@ packages:
   astro-lighthouse@0.1.3:
     resolution: {integrity: sha512-L/XBl+0qYfBorOEzqbMmV1m1exyZdCHwPwdm6tXUUzPneU+7X8DW0zpwgRGgQLdm8Tzzq7uCJ26x6ZuTBZvOaw==}
 
-  astro@4.16.9:
-    resolution: {integrity: sha512-DFYzPZooVArKSGu969BBByUV44tJMVDPGKxgqWNFBaIrkvGljdVUqQSVwD+/iPYACoSkI8BRYvDMEBDkathIUQ==}
+  astro@4.16.10:
+    resolution: {integrity: sha512-a+nB4bZE50NXHLzVXUHtx/lYct2Aa8kbqZnWNrWqkU97RuhBuWJ5H5/LQbKRnBWGvqChKfJBiMWJe53TY9ieYQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -1837,8 +1837,8 @@ packages:
   duplexer@0.1.2:
     resolution: {integrity: sha512-jtD6YG370ZCIi/9GTaJKQxWTZD045+4R4hTk/x1UyoqadyJ9x9CgSi1RlVDQF8U2sxLLSnFkCaMihqljHIWgMg==}
 
-  electron-to-chromium@1.5.50:
-    resolution: {integrity: sha512-eMVObiUQ2LdgeO1F/ySTXsvqvxb6ZH2zPGaMYsWzRDdOddUa77tdmI0ltg+L16UpbWdhPmuF3wIQYyQq65WfZw==}
+  electron-to-chromium@1.5.52:
+    resolution: {integrity: sha512-xtoijJTZ+qeucLBDNztDOuQBE1ksqjvNjvqFoST3nGC7fSpqJ+X6BdTBaY5BHG+IhWWmpc6b/KfpeuEDupEPOQ==}
 
   emmet@2.4.11:
     resolution: {integrity: sha512-23QPJB3moh/U9sT4rQzGgeyyGIrcM+GH5uVYg2C6wZIxAIJq7Ng3QLT79tl8FUwDXhyq9SusfknOrofAKqvgyQ==}
@@ -4499,7 +4499,7 @@ snapshots:
       '@sentry/types': 8.37.0
       '@sentry/utils': 8.37.0
 
-  '@sentry/astro@8.37.0(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))':
+  '@sentry/astro@8.37.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))':
     dependencies:
       '@sentry/browser': 8.37.0
       '@sentry/core': 8.37.0
@@ -4507,7 +4507,7 @@ snapshots:
       '@sentry/types': 8.37.0
       '@sentry/utils': 8.37.0
       '@sentry/vite-plugin': 2.22.6
-      astro: 4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
     transitivePeerDependencies:
       - encoding
       - supports-color
@@ -4715,12 +4715,12 @@ snapshots:
 
   '@shikijs/vscode-textmate@9.3.0': {}
 
-  '@spotlightjs/astro@1.0.20(@sentry/astro@8.37.0(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)))(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))':
+  '@spotlightjs/astro@1.0.20(@sentry/astro@8.37.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)))(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))':
     dependencies:
-      '@sentry/astro': 8.37.0(astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))
+      '@sentry/astro': 8.37.0(astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3))
       '@spotlightjs/overlay': 1.8.3
       '@spotlightjs/sidecar': 1.4.0
-      astro: 4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
+      astro: 4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3)
       source-map: 0.7.4
 
   '@spotlightjs/overlay@1.8.3': {}
@@ -5152,7 +5152,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  astro@4.16.9(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3):
+  astro@4.16.10(@types/node@22.9.0)(rollup@4.24.4)(typescript@5.6.3):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5294,7 +5294,7 @@ snapshots:
   browserslist@4.24.2:
     dependencies:
       caniuse-lite: 1.0.30001677
-      electron-to-chromium: 1.5.50
+      electron-to-chromium: 1.5.52
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -5520,7 +5520,7 @@ snapshots:
 
   duplexer@0.1.2: {}
 
-  electron-to-chromium@1.5.50: {}
+  electron-to-chromium@1.5.52: {}
 
   emmet@2.4.11:
     dependencies:
