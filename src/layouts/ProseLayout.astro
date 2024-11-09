@@ -12,16 +12,22 @@ const { title } = Astro.props;
   <title slot="meta">Leo's Blog</title>
 
   <Fragment slot="main">
-    <div class="prose prose-black m-auto mb-8">
-      <h1 class="mb-0 font-800 text-4xl font-sans text-black">
-        <slot name="heading" />
-    </h1>
-    </div>
-    <article>
-        <div class="prose text-4 m-auto prose-slate line-height-relaxed ">
-            <slot name="content" />
+    <div class="prose m-auto">
+      <div class="prose-black m-auto mb-8">
+        <!-- <h1 class="mb-0 font-800 text-4xl font-sans text-black"> -->
+        <h1 class="mb-0 font-800 font-sans text-black text-align-left">
+          <slot name="heading" />
+        </h1>
+        <slot name="below-heading" />
+      </div>
+      <article>
+        <div
+          class="text-lg m-auto prose-slate line-height-relaxed text-align-left"
+        >
+          <slot name="content" />
         </div>
-    </article>
+      </article>
+    </div>
   </Fragment>
 </PageLayout>
 

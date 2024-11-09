@@ -1,0 +1,13 @@
+---
+import ProseLayout from "@/layouts/ProseLayout.astro";
+import PagefindSearch from "astro-pagefind/components/Search";
+
+---
+
+<ProseLayout title="Leo's Blog">
+	<Fragment slot="heading">Search</Fragment>
+
+	<Fragment slot="content">
+		<PagefindSearch id="search" className="pagefind-ui" uiOptions={{  }} />
+	</Fragment>
+</ProseLayout>

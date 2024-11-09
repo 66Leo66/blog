@@ -18,6 +18,14 @@ const { Content } = await entry.render();
 
 <ProseLayout title={`${entry.data.title}`}>
     <Fragment slot="heading">{entry.data.title}</Fragment>
+    <Fragment slot="below-heading">
+        标签：
+        <ul class="flex list-none p-0">
+            {entry.data.tags.map(tag => (
+                <li class="mr-2">{tag}</li>
+            ))}
+        </ul>
+    </Fragment>
 
     <Fragment slot="content">
         <Content />

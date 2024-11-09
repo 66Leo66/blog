@@ -26,10 +26,9 @@ export default defineConfig({
         mono: "Jetbrains Mono",
       },
     }),
-    presetTypography(),
+    presetTypography({}),
   ],
   transformers: [transformerDirectives()],
-  rules: [["prose", { "max-width": "70ch" }]],
-  shortcuts: [
-  ],
+  // rules: [["prose", { "max-width": "70ch" }]],
+  shortcuts: [],
 });
