@@ -22,7 +22,7 @@ importers:
         version: 0.38.3
       '@expressive-code/plugin-line-numbers':
         specifier: ^0.38.0
-        version: 0.38.0
+        version: 0.38.3
       astro:
         specifier: 5.0.0-beta.5
         version: 5.0.0-beta.5(rollup@4.24.3)(typescript@5.6.3)
@@ -673,9 +673,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@expressive-code/core@0.38.0':
-    resolution: {integrity: sha512-mpqXI69CFkkYES03mY5EQq/8WrEXohWq5RpFmjbOJjaW8yUOPQfm1KNBOirTBTjJekn3TOsXE82l8MFwKjTC7Q==}
-
   '@expressive-code/core@0.38.3':
     resolution: {integrity: sha512-s0/OtdRpBONwcn23O8nVwDNQqpBGKscysejkeBkwlIeHRLZWgiTVrusT5Idrdz1d8cW5wRk9iGsAIQmwDPXgJg==}
 
@@ -685,8 +682,8 @@ packages:
   '@expressive-code/plugin-frames@0.38.0':
     resolution: {integrity: sha512-EkZyv/H5+qxqSiqJjMXoMfG0BCGa8stXMdBu38Sf4joNmo5SxxSaTG2URXeWZqUUIChX+tWx5xprcUfbpsmY5g==}
 
-  '@expressive-code/plugin-line-numbers@0.38.0':
-    resolution: {integrity: sha512-sK+TSS4Dir/IqbLdzHADkMIoIj42KpC2iyyrqfjZ4X0kgEElg4hnS4dBsWjR8Tl1DVwnExw9FZufNkKTD8SZYQ==}
+  '@expressive-code/plugin-line-numbers@0.38.3':
+    resolution: {integrity: sha512-QbK9NL44ST9w5ANVEu0a7fkjlq+fXgxyPqiSyFC4Nw/sAXd0MUwT1C8V0qlve4pZYLz53CR9tn4JQQbR0Z1tOg==}
 
   '@expressive-code/plugin-shiki@0.38.0':
     resolution: {integrity: sha512-n/sNSECIk+i6hW0KLv3VBNdd0ZGm0e/9ip/qjxKcaRtsZ0fPxYOBkXcSHcF87/v1kHlFRT91SxcZVXBc6FcJqw==}
@@ -3265,18 +3262,6 @@ snapshots:
   '@esbuild/win32-x64@0.24.0':
     optional: true
 
-  '@expressive-code/core@0.38.0':
-    dependencies:
-      '@ctrl/tinycolor': 4.1.0
-      hast-util-select: 6.0.3
-      hast-util-to-html: 9.0.3
-      hast-util-to-text: 4.0.2
-      hastscript: 9.0.0
-      postcss: 8.4.47
-      postcss-nested: 6.2.0(postcss@8.4.47)
-      unist-util-visit: 5.0.0
-      unist-util-visit-parents: 6.0.1
-
   '@expressive-code/core@0.38.3':
     dependencies:
       '@ctrl/tinycolor': 4.1.0
@@ -3295,20 +3280,20 @@ snapshots:
 
   '@expressive-code/plugin-frames@0.38.0':
     dependencies:
-      '@expressive-code/core': 0.38.0
+      '@expressive-code/core': 0.38.3
 
-  '@expressive-code/plugin-line-numbers@0.38.0':
+  '@expressive-code/plugin-line-numbers@0.38.3':
     dependencies:
-      '@expressive-code/core': 0.38.0
+      '@expressive-code/core': 0.38.3
 
   '@expressive-code/plugin-shiki@0.38.0':
     dependencies:
-      '@expressive-code/core': 0.38.0
+      '@expressive-code/core': 0.38.3
       shiki: 1.22.2
 
   '@expressive-code/plugin-text-markers@0.38.0':
     dependencies:
-      '@expressive-code/core': 0.38.0
+      '@expressive-code/core': 0.38.3
 
   '@iconify/types@2.0.0': {}
 
@@ -4353,7 +4338,7 @@ snapshots:
 
   expressive-code@0.38.0:
     dependencies:
-      '@expressive-code/core': 0.38.0
+      '@expressive-code/core': 0.38.3
       '@expressive-code/plugin-frames': 0.38.0
       '@expressive-code/plugin-shiki': 0.38.0
       '@expressive-code/plugin-text-markers': 0.38.0
