@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.3.3)(typescript@5.6.3)
       '@astrojs/mdx':
         specifier: 4.0.0-beta.3
-        version: 4.0.0-beta.3(astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))
+        version: 4.0.0-beta.3(astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))
       '@astrojs/solid-js':
         specifier: ^4.4.2
         version: 4.4.2(solid-js@1.9.3)(vite@6.0.0-beta.6(jiti@1.21.6)(tsx@4.19.2)(yaml@2.6.0))
@@ -24,14 +24,14 @@ importers:
         specifier: ^0.38.3
         version: 0.38.3
       astro:
-        specifier: 5.0.0-beta.7
-        version: 5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
+        specifier: 5.0.0-beta.8
+        version: 5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
       astro-expressive-code:
         specifier: ^0.38.3
-        version: 0.38.3(astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))
+        version: 0.38.3(astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.6.0(astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))
+        version: 1.6.0(astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.0
@@ -1235,8 +1235,8 @@ packages:
     peerDependencies:
       astro: ^2.0.4 || ^3.0.0 || ^4.0.0
 
-  astro@5.0.0-beta.7:
-    resolution: {integrity: sha512-0gwb80vd78srzP1PATCOEJQDxQjZswD8tL/2bfrryM4FaSHXJ847oV4uj5eomRD9G0zZPv2UOWJKNksuyG3X2w==}
+  astro@5.0.0-beta.8:
+    resolution: {integrity: sha512-AXMNek/+7ndByFILgiRgfT3gxWcSKpzB2T8p4IPKlEWgLNMKaL8t8NaPUhUvQlpOPj+SL5n0ZoaMme6aHQIBaw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2863,12 +2863,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.0.0-beta.3(astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))':
+  '@astrojs/mdx@4.0.0-beta.3(astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.0.0-beta.2
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
+      astro: 5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
       es-module-lexer: 1.5.4
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.3
@@ -3924,19 +3924,19 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)):
+  astro-expressive-code@0.38.3(astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)):
     dependencies:
-      astro: 5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
+      astro: 5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.6.0(astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)):
+  astro-pagefind@1.6.0(astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.2.0
-      astro: 5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
+      astro: 5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0)
       pagefind: 1.2.0
       sirv: 2.0.4
 
-  astro@5.0.0-beta.7(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0):
+  astro@5.0.0-beta.8(jiti@1.21.6)(rollup@4.25.0)(tsx@4.19.2)(typescript@5.6.3)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
