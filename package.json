@@ -30,7 +30,7 @@
   "devDependencies": {
     "@astrojs/ts-plugin": "^1.10.4",
     "@unocss/reset": "^0.64.0",
-    "prettier": "3.3.3",
+    "prettier": "3.4.0",
     "prettier-plugin-astro": "0.14.1",
     "unocss": "^0.64.0"
   }
