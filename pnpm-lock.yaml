@@ -31,7 +31,7 @@ importers:
         version: 0.38.3(astro@5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.6.0(astro@5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0))
+        version: 1.7.0(astro@5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -201,6 +201,11 @@ packages:
     engines: {node: '>=6.0.0'}
     hasBin: true
 
+  '@babel/parser@7.26.3':
+    resolution: {integrity: sha512-WJ/CvmY8Mea8iDXo6a7RK2wbmJITT5fN3BEkRuFlxVyNx8jOKIIhmC4fSkTcPcf8JyavbBwIe6OpiCOBXt/IcA==}
+    engines: {node: '>=6.0.0'}
+    hasBin: true
+
   '@babel/plugin-syntax-jsx@7.25.9':
     resolution: {integrity: sha512-ld6oezHQMZsZfp6pWtbjaNDF2tiiCYYDqQszHt5VV437lewP9aSi2Of99CK0D0XB21k7FLgnLcmQKyKzynfeAA==}
     engines: {node: '>=6.9.0'}
@@ -217,6 +222,10 @@ packages:
 
   '@babel/types@7.26.0':
     resolution: {integrity: sha512-Z/yiTPj+lDVnF7lWeKCIJzaIkI0vYO87dMpZ4bg4TDrFe4XXLFWL1TbXU27gBP3QccxV9mZICCrnjnYlJjXHOA==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/types@7.26.3':
+    resolution: {integrity: sha512-vN5p+1kl59GVKMvTHt55NzzmYVxprfJD+ql7U9NFIfKCBkYE55LYtS+WtPlaYOyzydrKI8Nezd+aZextrd+FMA==}
     engines: {node: '>=6.9.0'}
 
   '@ctrl/tinycolor@4.1.0':
@@ -1230,10 +1239,10 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro-pagefind@1.6.0:
-    resolution: {integrity: sha512-U/WuE0ktkZkoFJf6yopWO4DjIJ3+wrnopE2L3kUYiyqNTJpqmp13bFLR8gir6B+KzQ5dsXQtJZYTQtKJg1FxIA==}
+  astro-pagefind@1.7.0:
+    resolution: {integrity: sha512-PNcJ2cVIEXsK0toTyJa792uieRQjjXZptPn+0QrMjM6ONHxxiLLeQ0ZtAds/tERlIMcMUyAnVCKhuR0se4gDUw==}
     peerDependencies:
-      astro: ^2.0.4 || ^3.0.0 || ^4.0.0
+      astro: ^2.0.4 || ^3 || ^4 || ^5
 
   astro@5.0.3:
     resolution: {integrity: sha512-qpeN+POmmfAQu/XDXaI2CxkUgQFwH9uMUVaA1reV9rybzIbOVYc3E3BU5SkiP/W4BMUFPdJtyw6+/n/0AUv6rw==}
@@ -2330,6 +2339,10 @@ packages:
     resolution: {integrity: sha512-94Bdh3cC2PKrbgSOUqTiGPWVZeSiXfKOVZNJniWoqrWrRkB1CJzBU3NEbiTsPcYy1lDsANA/THzS+9WBiy5nfQ==}
     engines: {node: '>= 10'}
 
+  sirv@3.0.0:
+    resolution: {integrity: sha512-BPwJGUeDaDCHihkORDchNyyTvWFhcusy1XMmhEVTQTwGeybFbp8YEmB+njbPnth1FibULBSBVwCQni25XlCUDg==}
+    engines: {node: '>=18'}
+
   sisteransi@1.0.5:
     resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
 
@@ -3053,6 +3066,10 @@ snapshots:
     dependencies:
       '@babel/types': 7.26.0
 
+  '@babel/parser@7.26.3':
+    dependencies:
+      '@babel/types': 7.26.3
+
   '@babel/plugin-syntax-jsx@7.25.9(@babel/core@7.26.0)':
     dependencies:
       '@babel/core': 7.26.0
@@ -3077,6 +3094,11 @@ snapshots:
       - supports-color
 
   '@babel/types@7.26.0':
+    dependencies:
+      '@babel/helper-string-parser': 7.25.9
+      '@babel/helper-validator-identifier': 7.25.9
+
+  '@babel/types@7.26.3':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
@@ -3879,7 +3901,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.12':
     dependencies:
-      '@babel/parser': 7.26.2
+      '@babel/parser': 7.26.3
       '@vue/shared': 3.5.12
       entities: 4.5.0
       estree-walker: 2.0.2
@@ -3892,7 +3914,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.12':
     dependencies:
-      '@babel/parser': 7.26.2
+      '@babel/parser': 7.26.3
       '@vue/compiler-core': 3.5.12
       '@vue/compiler-dom': 3.5.12
       '@vue/compiler-ssr': 3.5.12
@@ -3980,12 +4002,12 @@ snapshots:
       astro: 5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.6.0(astro@5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0)):
+  astro-pagefind@1.7.0(astro@5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.2.0
       astro: 5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0)
       pagefind: 1.2.0
-      sirv: 2.0.4
+      sirv: 3.0.0
 
   astro@5.0.3(jiti@1.21.6)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.2)(yaml@2.6.0):
     dependencies:
@@ -5665,6 +5687,12 @@ snapshots:
       is-arrayish: 0.3.2
 
   sirv@2.0.4:
+    dependencies:
+      '@polka/url': 1.0.0-next.28
+      mrmime: 2.0.0
+      totalist: 3.0.1
+
+  sirv@3.0.0:
     dependencies:
       '@polka/url': 1.0.0-next.28
       mrmime: 2.0.0
