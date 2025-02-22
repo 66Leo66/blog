@@ -27,8 +27,8 @@ importers:
         specifier: 5.3.0
         version: 5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
       astro-expressive-code:
-        specifier: ^0.38.3
-        version: 0.38.3(astro@5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
+        specifier: ^0.40.0
+        version: 0.40.2(astro@5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
         version: 1.8.0(astro@5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
@@ -55,7 +55,7 @@ importers:
         version: 5.7.3
       unocss-preset-animations:
         specifier: ^1.1.0
-        version: 1.1.1(@unocss/preset-wind@0.65.4)(unocss@0.65.4(postcss@8.4.47)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3)))
+        version: 1.1.1(@unocss/preset-wind@0.65.4)(unocss@0.65.4(postcss@8.4.49)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3)))
     devDependencies:
       '@astrojs/ts-plugin':
         specifier: ^1.10.4
@@ -71,7 +71,7 @@ importers:
         version: 0.14.1
       unocss:
         specifier: ^0.65.0
-        version: 0.65.4(postcss@8.4.47)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))
+        version: 0.65.4(postcss@8.4.49)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))
 
 packages:
 
@@ -691,20 +691,23 @@ packages:
   '@expressive-code/core@0.38.3':
     resolution: {integrity: sha512-s0/OtdRpBONwcn23O8nVwDNQqpBGKscysejkeBkwlIeHRLZWgiTVrusT5Idrdz1d8cW5wRk9iGsAIQmwDPXgJg==}
 
+  '@expressive-code/core@0.40.2':
+    resolution: {integrity: sha512-gXY3v7jbgz6nWKvRpoDxK4AHUPkZRuJsM79vHX/5uhV9/qX6Qnctp/U/dMHog/LCVXcuOps+5nRmf1uxQVPb3w==}
+
   '@expressive-code/plugin-collapsible-sections@0.38.3':
     resolution: {integrity: sha512-0r1k4k5S7GBLIRBYFkMKeIyD9iYcwM+LBrwoxZtd9TtBYJ3ziWBleFlCoOA3fo/Mj2YcaN7ZRIscMzYY9JBWrA==}
 
-  '@expressive-code/plugin-frames@0.38.3':
-    resolution: {integrity: sha512-qL2oC6FplmHNQfZ8ZkTR64/wKo9x0c8uP2WDftR/ydwN/yhe1ed7ZWYb8r3dezxsls+tDokCnN4zYR594jbpvg==}
+  '@expressive-code/plugin-frames@0.40.2':
+    resolution: {integrity: sha512-aLw5IlDlZWb10Jo/TTDCVsmJhKfZ7FJI83Zo9VDrV0OBlmHAg7klZqw68VDz7FlftIBVAmMby53/MNXPnMjTSQ==}
 
   '@expressive-code/plugin-line-numbers@0.38.3':
     resolution: {integrity: sha512-QbK9NL44ST9w5ANVEu0a7fkjlq+fXgxyPqiSyFC4Nw/sAXd0MUwT1C8V0qlve4pZYLz53CR9tn4JQQbR0Z1tOg==}
 
-  '@expressive-code/plugin-shiki@0.38.3':
-    resolution: {integrity: sha512-kqHnglZeesqG3UKrb6e9Fq5W36AZ05Y9tCREmSN2lw8LVTqENIeCIkLDdWtQ5VoHlKqwUEQFTVlRehdwoY7Gmw==}
+  '@expressive-code/plugin-shiki@0.40.2':
+    resolution: {integrity: sha512-t2HMR5BO6GdDW1c1ISBTk66xO503e/Z8ecZdNcr6E4NpUfvY+MRje+LtrcvbBqMwWBBO8RpVKcam/Uy+1GxwKQ==}
 
-  '@expressive-code/plugin-text-markers@0.38.3':
-    resolution: {integrity: sha512-dPK3+BVGTbTmGQGU3Fkj3jZ3OltWUAlxetMHI6limUGCWBCucZiwoZeFM/WmqQa71GyKRzhBT+iEov6kkz2xVA==}
+  '@expressive-code/plugin-text-markers@0.40.2':
+    resolution: {integrity: sha512-/XoLjD67K9nfM4TgDlXAExzMJp6ewFKxNpfUw4F7q5Ecy+IU3/9zQQG/O70Zy+RxYTwKGw2MA9kd7yelsxnSmw==}
 
   '@iconify/types@2.0.0':
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
@@ -1264,8 +1267,8 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-expressive-code@0.38.3:
-    resolution: {integrity: sha512-Tvdc7RV0G92BbtyEOsfJtXU35w41CkM94fOAzxbQP67Wj5jArfserJ321FO4XA7WG9QMV0GIBmQq77NBIRDzpQ==}
+  astro-expressive-code@0.40.2:
+    resolution: {integrity: sha512-yJMQId0yXSAbW9I6yqvJ3FcjKzJ8zRL7elbJbllkv1ZJPlsI0NI83Pxn1YL1IapEM347EvOOkSW2GL+2+NO61w==}
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
@@ -1583,8 +1586,8 @@ packages:
   eventemitter3@5.0.1:
     resolution: {integrity: sha512-GWkBvjiSZK87ELrYOSESUYeVIc9mvLLf/nXalMOS5dYrgZq9o5OVkbZAVM06CVxYsCwH9BDZFPlQTlPA1j4ahA==}
 
-  expressive-code@0.38.3:
-    resolution: {integrity: sha512-COM04AiUotHCKJgWdn7NtW2lqu8OW8owAidMpkXt1qxrZ9Q2iC7+tok/1qIn2ocGnczvr9paIySgGnEwFeEQ8Q==}
+  expressive-code@0.40.2:
+    resolution: {integrity: sha512-1zIda2rB0qiDZACawzw2rbdBQiWHBT56uBctS+ezFe5XMAaFaHLnnSYND/Kd+dVzO9HfCXRDpzH3d+3fvOWRcw==}
 
   extend@3.0.2:
     resolution: {integrity: sha512-fjquC59cD7CyW6urNXK0FBufkZcoiGG80wTuPujX590cB5Ttln20E2UB4S/WARVqhXffZl2LNgS+gQdPIIim/g==}
@@ -2279,8 +2282,8 @@ packages:
   regex@5.1.1:
     resolution: {integrity: sha512-dN5I359AVGPnwzJm2jN1k0W9LPZ+ePvoOeVMMfqIMFz53sSwXkxaJoxr50ptnsC771lK95BnTrVSZxq0b9yCGw==}
 
-  rehype-expressive-code@0.38.3:
-    resolution: {integrity: sha512-RYSSDkMBikoTbycZPkcWp6ELneANT4eTpND1DSRJ6nI2eVFUwTBDCvE2vO6jOOTaavwnPiydi4i/87NRyjpdOA==}
+  rehype-expressive-code@0.40.2:
+    resolution: {integrity: sha512-+kn+AMGCrGzvtH8Q5lC6Y5lnmTV/r33fdmi5QU/IH1KPHKobKr5UnLwJuqHv5jBTSN/0v2wLDS7RTM73FVzqmQ==}
 
   rehype-parse@9.0.1:
     resolution: {integrity: sha512-ksCzCD0Fgfh7trPDxr2rSylbwq9iYDkSn8TCDmEJ49ljEUBxDVCzCHv7QNzZOfODanX4+bWQ4WZqLCRWYLfhag==}
@@ -3495,26 +3498,38 @@ snapshots:
       unist-util-visit: 5.0.0
       unist-util-visit-parents: 6.0.1
 
+  '@expressive-code/core@0.40.2':
+    dependencies:
+      '@ctrl/tinycolor': 4.1.0
+      hast-util-select: 6.0.3
+      hast-util-to-html: 9.0.4
+      hast-util-to-text: 4.0.2
+      hastscript: 9.0.0
+      postcss: 8.4.49
+      postcss-nested: 6.2.0(postcss@8.4.49)
+      unist-util-visit: 5.0.0
+      unist-util-visit-parents: 6.0.1
+
   '@expressive-code/plugin-collapsible-sections@0.38.3':
     dependencies:
       '@expressive-code/core': 0.38.3
 
-  '@expressive-code/plugin-frames@0.38.3':
+  '@expressive-code/plugin-frames@0.40.2':
     dependencies:
-      '@expressive-code/core': 0.38.3
+      '@expressive-code/core': 0.40.2
 
   '@expressive-code/plugin-line-numbers@0.38.3':
     dependencies:
       '@expressive-code/core': 0.38.3
 
-  '@expressive-code/plugin-shiki@0.38.3':
+  '@expressive-code/plugin-shiki@0.40.2':
     dependencies:
-      '@expressive-code/core': 0.38.3
+      '@expressive-code/core': 0.40.2
       shiki: 1.29.2
 
-  '@expressive-code/plugin-text-markers@0.38.3':
+  '@expressive-code/plugin-text-markers@0.40.2':
     dependencies:
-      '@expressive-code/core': 0.38.3
+      '@expressive-code/core': 0.40.2
 
   '@iconify/types@2.0.0': {}
 
@@ -3932,13 +3947,13 @@ snapshots:
     transitivePeerDependencies:
       - vue
 
-  '@unocss/postcss@0.65.4(postcss@8.4.47)':
+  '@unocss/postcss@0.65.4(postcss@8.4.49)':
     dependencies:
       '@unocss/config': 0.65.4
       '@unocss/core': 0.65.4
       '@unocss/rule-utils': 0.65.4
       css-tree: 3.1.0
-      postcss: 8.4.47
+      postcss: 8.4.49
       tinyglobby: 0.2.10
     transitivePeerDependencies:
       - supports-color
@@ -4177,10 +4192,10 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
+  astro-expressive-code@0.40.2(astro@5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
     dependencies:
       astro: 5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
-      rehype-expressive-code: 0.38.3
+      rehype-expressive-code: 0.40.2
 
   astro-pagefind@1.8.0(astro@5.3.0(jiti@2.4.2)(rollup@4.27.3)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
     dependencies:
@@ -4630,12 +4645,12 @@ snapshots:
 
   eventemitter3@5.0.1: {}
 
-  expressive-code@0.38.3:
+  expressive-code@0.40.2:
     dependencies:
-      '@expressive-code/core': 0.38.3
-      '@expressive-code/plugin-frames': 0.38.3
-      '@expressive-code/plugin-shiki': 0.38.3
-      '@expressive-code/plugin-text-markers': 0.38.3
+      '@expressive-code/core': 0.40.2
+      '@expressive-code/plugin-frames': 0.40.2
+      '@expressive-code/plugin-shiki': 0.40.2
+      '@expressive-code/plugin-text-markers': 0.40.2
 
   extend@3.0.2: {}
 
@@ -5619,6 +5634,11 @@ snapshots:
       postcss: 8.4.47
       postcss-selector-parser: 6.1.2
 
+  postcss-nested@6.2.0(postcss@8.4.49):
+    dependencies:
+      postcss: 8.4.49
+      postcss-selector-parser: 6.1.2
+
   postcss-selector-parser@6.1.2:
     dependencies:
       cssesc: 3.0.0
@@ -5713,9 +5733,9 @@ snapshots:
     dependencies:
       regex-utilities: 2.3.0
 
-  rehype-expressive-code@0.38.3:
+  rehype-expressive-code@0.40.2:
     dependencies:
-      expressive-code: 0.38.3
+      expressive-code: 0.40.2
 
   rehype-parse@9.0.1:
     dependencies:
@@ -6131,17 +6151,17 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unocss-preset-animations@1.1.1(@unocss/preset-wind@0.65.4)(unocss@0.65.4(postcss@8.4.47)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))):
+  unocss-preset-animations@1.1.1(@unocss/preset-wind@0.65.4)(unocss@0.65.4(postcss@8.4.49)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))):
     dependencies:
       '@unocss/preset-wind': 0.65.4
-      unocss: 0.65.4(postcss@8.4.47)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))
+      unocss: 0.65.4(postcss@8.4.49)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))
 
-  unocss@0.65.4(postcss@8.4.47)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3)):
+  unocss@0.65.4(postcss@8.4.49)(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3)):
     dependencies:
       '@unocss/astro': 0.65.4(rollup@4.27.3)(vite@6.0.11(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.7.3))
       '@unocss/cli': 0.65.4(rollup@4.27.3)
       '@unocss/core': 0.65.4
-      '@unocss/postcss': 0.65.4(postcss@8.4.47)
+      '@unocss/postcss': 0.65.4(postcss@8.4.49)
       '@unocss/preset-attributify': 0.65.4
       '@unocss/preset-icons': 0.65.4
       '@unocss/preset-mini': 0.65.4
