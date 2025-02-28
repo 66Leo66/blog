@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.5.2)(typescript@5.7.3)
       '@astrojs/mdx':
         specifier: 4.1.0
-        version: 4.1.0(astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
+        version: 4.1.0(astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
       '@astrojs/solid-js':
         specifier: ^4.4.2
         version: 4.4.4(solid-js@1.9.5)
@@ -24,14 +24,14 @@ importers:
         specifier: ^0.38.3
         version: 0.38.3
       astro:
-        specifier: 5.4.0
-        version: 5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
+        specifier: 5.4.1
+        version: 5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
       astro-expressive-code:
         specifier: ^0.38.3
-        version: 0.38.3(astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
+        version: 0.38.3(astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.8.1(astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
+        version: 1.8.1(astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -93,6 +93,9 @@ packages:
 
   '@astrojs/compiler@2.10.3':
     resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
+
+  '@astrojs/compiler@2.10.4':
+    resolution: {integrity: sha512-86B3QGagP99MvSNwuJGiYSBHnh8nLvm2Q1IFI15wIUJJsPeQTO3eb2uwBmrqRsXykeR/mBzH8XCgz5AAt1BJrQ==}
 
   '@astrojs/internal-helpers@0.6.0':
     resolution: {integrity: sha512-XgHIJDQaGlFnTr0sDp1PiJrtqsWzbHP2qkTU+JpQ8SnBewKP2IKOe/wqCkl0CyfyRXRu3TSWu4t/cpYMVfuBNA==}
@@ -1501,8 +1504,8 @@ packages:
     peerDependencies:
       astro: ^2.0.4 || ^3 || ^4 || ^5
 
-  astro@5.4.0:
-    resolution: {integrity: sha512-7A//zrCtJUGfJcQAt6PDhMu4a6pogvnK54HLXnYlPnKSWQZu/tKIYWfyvocVnTuEYIPExIN3CpjNAFFLoweJVw==}
+  astro@5.4.1:
+    resolution: {integrity: sha512-z9BiBz8pV7pZVn1evZv/9bJil3A9UZNyEjDFH3IjD87ioz95HHGLgbjRbbqF1EwSy8JOLKlMNyuQPqjrX8xqWw==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3251,6 +3254,8 @@ snapshots:
 
   '@astrojs/compiler@2.10.3': {}
 
+  '@astrojs/compiler@2.10.4': {}
+
   '@astrojs/internal-helpers@0.6.0': {}
 
   '@astrojs/language-server@2.15.4(prettier-plugin-astro@0.14.1)(prettier@3.5.2)(typescript@5.7.3)':
@@ -3305,12 +3310,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.1.0(astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))':
+  '@astrojs/mdx@4.1.0(astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.2.0
       '@mdx-js/mdx': 3.1.0(acorn@8.14.0)
       acorn: 8.14.0
-      astro: 5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
+      astro: 5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.4
@@ -4528,21 +4533,21 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
+  astro-expressive-code@0.38.3(astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
     dependencies:
-      astro: 5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
+      astro: 5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.8.1(astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
+  astro-pagefind@1.8.1(astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.3.0
-      astro: 5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
+      astro: 5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0)
       pagefind: 1.3.0
       sirv: 3.0.1
 
-  astro@5.4.0(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0):
+  astro@5.4.1(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.7.3)(yaml@2.6.0):
     dependencies:
-      '@astrojs/compiler': 2.10.3
+      '@astrojs/compiler': 2.10.4
       '@astrojs/internal-helpers': 0.6.0
       '@astrojs/markdown-remark': 6.2.0
       '@astrojs/telemetry': 3.2.0
