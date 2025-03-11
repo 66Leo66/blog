@@ -31,7 +31,7 @@ importers:
         version: 0.38.3(astro@5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.8.1(astro@5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0))
+        version: 1.8.2(astro@5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -1487,8 +1487,8 @@ packages:
     peerDependencies:
       astro: ^4.0.0-beta || ^5.0.0-beta || ^3.3.0
 
-  astro-pagefind@1.8.1:
-    resolution: {integrity: sha512-pWQthi76aqdfGFifGNjzlMErZrnoSf5UGSuTWWdEaiDAt5VQCgQxoG4b1Dh5byi3Fr3fvbgHeWSzqEYPObgTEA==}
+  astro-pagefind@1.8.2:
+    resolution: {integrity: sha512-YE1ajqk/6UksBR8xTzdJhgw6L+1Xwg6EWoNpIBxc840XAKVxNoA2kMIjXNuT7QFP/p4wXWf2tAJm7vCIcf2FUg==}
     peerDependencies:
       astro: ^2.0.4 || ^3 || ^4 || ^5
 
@@ -4451,7 +4451,7 @@ snapshots:
       astro: 5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.8.1(astro@5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0)):
+  astro-pagefind@1.8.2(astro@5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.3.0
       astro: 5.4.3(jiti@2.4.2)(rollup@4.34.8)(tsx@4.19.2)(typescript@5.8.2)(yaml@2.6.0)
