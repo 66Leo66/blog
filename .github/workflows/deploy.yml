@@ -18,7 +18,7 @@ jobs:
           version: latest
       - uses: actions/setup-node@v4
         with:
-          node-version: '20.6.1'
+          node-version: '20.18.3'
           cache: 'pnpm'
       - run: pnpm install
       - run: pnpm build
