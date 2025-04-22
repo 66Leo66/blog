@@ -55,7 +55,7 @@ importers:
         version: 5.8.3
       unocss-preset-animations:
         specifier: ^1.1.0
-        version: 1.1.1(@unocss/preset-wind@0.65.4)(unocss@0.65.4(postcss@8.4.47)(rollup@4.34.8)(vite@6.2.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.8.3)))
+        version: 1.2.0(unocss@0.65.4(postcss@8.4.47)(rollup@4.34.8)(vite@6.2.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.8.3)))
     devDependencies:
       '@astrojs/ts-plugin':
         specifier: ^1.10.4
@@ -2951,11 +2951,14 @@ packages:
   unist-util-visit@5.0.0:
     resolution: {integrity: sha512-MR04uvD+07cwl/yhVuVWAtw+3GOR/knlL55Nd/wAdblk27GCVt3lqpTivy/tkJcZoNPzTwS1Y+KMojlLDhoTzg==}
 
-  unocss-preset-animations@1.1.1:
-    resolution: {integrity: sha512-YBttRSHWH0r8OABPzXNcxDhRV67LNIsA0ZrWoYTMHUc/SzVYZBU79IXLtOneLk1NCpzlfkyxm+8DWLJnmG1R6g==}
+  unocss-preset-animations@1.2.0:
+    resolution: {integrity: sha512-dMrf8SyFytIt3jBrfR6fUam4c0CsaDXhpMTcIT1fim/4YELnr9MfIp86OPPj4UYQnb7MVcbESOg8F0pU8yC16g==}
     peerDependencies:
-      '@unocss/preset-wind': '>=0.56.0 < 101'
+      '@unocss/preset-wind3': '>=0.56.0 < 101'
       unocss: '>=0.56.0 < 101'
+    peerDependenciesMeta:
+      '@unocss/preset-wind3':
+        optional: true
 
   unocss@0.65.4:
     resolution: {integrity: sha512-KUCW5OzI20Ik6j1zXkkrpWhxZ59TwSKl6+DvmYHEzMfaEcrHlBZaFSApAoSt2CYSvo6SluGiKyr+Im1UTkd4KA==}
@@ -6820,9 +6823,8 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unocss-preset-animations@1.1.1(@unocss/preset-wind@0.65.4)(unocss@0.65.4(postcss@8.4.47)(rollup@4.34.8)(vite@6.2.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.8.3))):
+  unocss-preset-animations@1.2.0(unocss@0.65.4(postcss@8.4.47)(rollup@4.34.8)(vite@6.2.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.8.3))):
     dependencies:
-      '@unocss/preset-wind': 0.65.4
       unocss: 0.65.4(postcss@8.4.47)(rollup@4.34.8)(vite@6.2.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.8.3))
 
   unocss@0.65.4(postcss@8.4.47)(rollup@4.34.8)(vite@6.2.6(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.8.3)):
