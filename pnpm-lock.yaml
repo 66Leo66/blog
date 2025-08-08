@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(typescript@5.9.2)
       '@astrojs/mdx':
         specifier: 4.3.3
-        version: 4.3.3(astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 4.3.3(astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       '@astrojs/solid-js':
         specifier: ^4.4.2
         version: 4.4.4(@types/node@22.15.17)(solid-js@1.9.8)
@@ -24,14 +24,14 @@ importers:
         specifier: ^0.38.3
         version: 0.38.3
       astro:
-        specifier: 5.12.8
-        version: 5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+        specifier: 5.12.9
+        version: 5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       astro-expressive-code:
         specifier: ^0.38.3
-        version: 0.38.3(astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 0.38.3(astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.8.3(astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 1.8.3(astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -1649,8 +1649,8 @@ packages:
     peerDependencies:
       astro: ^2.0.4 || ^3 || ^4 || ^5
 
-  astro@5.12.8:
-    resolution: {integrity: sha512-KkJ7FR+c2SyZYlpakm48XBiuQcRsrVtdjG5LN5an0givI/tLik+ePJ4/g3qrAVhYMjJOxBA2YgFQxANPiWB+Mw==}
+  astro@5.12.9:
+    resolution: {integrity: sha512-cZ7kZ61jyE5nwSrFKSRyf5Gds+uJELqQxJFqMkcgiWQvhWZJUSShn8Uz3yc9WLyLw5Kim5P5un9SkJSGogfEZQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2474,9 +2474,6 @@ packages:
   nlcst-to-string@4.0.0:
     resolution: {integrity: sha512-YKLBCcUYKAg0FNlOBT6aI91qFmSiFKiluk655WzPF+DDMA02qIyy8uiRqI8QXtcFpEvll12LpL5MXqEmAZ+dcA==}
 
-  node-fetch-native@1.6.4:
-    resolution: {integrity: sha512-IhOigYzAKHd244OC0JIMIUrjzctirCmPkaIfhDeGcEETWof5zKYUW7e7MYvChGWh/4CJeXEgsRyGzuF334rOOQ==}
-
   node-fetch-native@1.6.6:
     resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
 
@@ -2867,10 +2864,6 @@ packages:
 
   tinyexec@0.3.2:
     resolution: {integrity: sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA==}
-
-  tinyglobby@0.2.10:
-    resolution: {integrity: sha512-Zc+8eJlFMvgatPZTl6A9L/yht8QqdmUNtURHaKZLmKBE12hNPSrqNkUp2cs3M/UKmNVVAMFQYSjYIVHDjW5zew==}
-    engines: {node: '>=12.0.0'}
 
   tinyglobby@0.2.13:
     resolution: {integrity: sha512-mEwzpUgrLySlveBwEVDMKk5B57bhLPYovRfPAXD5gA/98Opn0rCDj3GtLwFvCvH5RK9uPCExUROW5NjDwvqkxw==}
@@ -3471,12 +3464,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.3(astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))':
+  '@astrojs/mdx@4.3.3(astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.5
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -4551,7 +4544,7 @@ snapshots:
       magic-string: 0.30.17
       pathe: 1.1.2
       perfect-debounce: 1.0.0
-      tinyglobby: 0.2.10
+      tinyglobby: 0.2.13
     transitivePeerDependencies:
       - rollup
       - supports-color
@@ -4587,7 +4580,7 @@ snapshots:
       '@unocss/rule-utils': 0.65.4
       css-tree: 3.1.0
       postcss: 8.4.47
-      tinyglobby: 0.2.10
+      tinyglobby: 0.2.13
     transitivePeerDependencies:
       - supports-color
 
@@ -4670,7 +4663,7 @@ snapshots:
       '@unocss/inspector': 0.65.4(vue@3.5.12(typescript@5.9.2))
       chokidar: 3.6.0
       magic-string: 0.30.17
-      tinyglobby: 0.2.10
+      tinyglobby: 0.2.13
       vite: 6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0)
     transitivePeerDependencies:
       - rollup
@@ -4821,19 +4814,19 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
+  astro-expressive-code@0.38.3(astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
     dependencies:
-      astro: 5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.8.3(astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
+  astro-pagefind@1.8.3(astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.3.0
-      astro: 5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       pagefind: 1.3.0
       sirv: 3.0.1
 
-  astro@5.12.8(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0):
+  astro@5.12.9(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.1
@@ -6183,8 +6176,6 @@ snapshots:
     dependencies:
       '@types/nlcst': 2.0.3
 
-  node-fetch-native@1.6.4: {}
-
   node-fetch-native@1.6.6: {}
 
   node-fetch@2.7.0:
@@ -6204,7 +6195,7 @@ snapshots:
   ofetch@1.4.1:
     dependencies:
       destr: 2.0.3
-      node-fetch-native: 1.6.4
+      node-fetch-native: 1.6.6
       ufo: 1.5.4
 
   ohash@2.0.11: {}
@@ -6756,11 +6747,6 @@ snapshots:
   tiny-inflate@1.0.3: {}
 
   tinyexec@0.3.2: {}
-
-  tinyglobby@0.2.10:
-    dependencies:
-      fdir: 6.4.4(picomatch@4.0.2)
-      picomatch: 4.0.2
 
   tinyglobby@0.2.13:
     dependencies:
