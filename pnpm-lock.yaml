@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(typescript@5.9.2)
       '@astrojs/mdx':
         specifier: 4.3.4
-        version: 4.3.4(astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 4.3.4(astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       '@astrojs/solid-js':
         specifier: ^4.4.2
         version: 4.4.4(@types/node@22.15.17)(solid-js@1.9.9)
@@ -24,14 +24,14 @@ importers:
         specifier: ^0.38.3
         version: 0.38.3
       astro:
-        specifier: 5.13.2
-        version: 5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+        specifier: 5.13.3
+        version: 5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       astro-expressive-code:
         specifier: ^0.38.3
-        version: 0.38.3(astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 0.38.3(astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.8.3(astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 1.8.3(astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -55,7 +55,7 @@ importers:
         version: 5.9.2
       unocss-preset-animations:
         specifier: ^1.1.0
-        version: 1.2.1(unocss@0.65.4(postcss@8.4.47)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2)))
+        version: 1.2.1(unocss@0.65.4(postcss@8.5.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2)))
     devDependencies:
       '@astrojs/ts-plugin':
         specifier: ^1.10.4
@@ -71,7 +71,7 @@ importers:
         version: 0.14.1
       unocss:
         specifier: ^0.65.0
-        version: 0.65.4(postcss@8.4.47)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))
+        version: 0.65.4(postcss@8.5.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))
 
 packages:
 
@@ -1649,8 +1649,8 @@ packages:
     peerDependencies:
       astro: ^2.0.4 || ^3 || ^4 || ^5
 
-  astro@5.13.2:
-    resolution: {integrity: sha512-yjcXY0Ua3EwjpVd3GoUXa65HQ6qgmURBptA+M9GzE0oYvgfuyM7bIbH8IR/TWIbdefVUJR5b7nZ0oVnMytmyfQ==}
+  astro@5.13.3:
+    resolution: {integrity: sha512-V0mUOUK70UZ7xqXp5Noqse/SREU0P756KgFufBEluq5LkmBejzC2GENMUA2Na+PFwUjemElJtRlpKyrnKpFhSQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3464,12 +3464,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.4(astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))':
+  '@astrojs/mdx@4.3.4(astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.6
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -4573,13 +4573,13 @@ snapshots:
     transitivePeerDependencies:
       - vue
 
-  '@unocss/postcss@0.65.4(postcss@8.4.47)':
+  '@unocss/postcss@0.65.4(postcss@8.5.3)':
     dependencies:
       '@unocss/config': 0.65.4
       '@unocss/core': 0.65.4
       '@unocss/rule-utils': 0.65.4
       css-tree: 3.1.0
-      postcss: 8.4.47
+      postcss: 8.5.3
       tinyglobby: 0.2.13
     transitivePeerDependencies:
       - supports-color
@@ -4814,19 +4814,19 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
+  astro-expressive-code@0.38.3(astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
     dependencies:
-      astro: 5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.8.3(astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
+  astro-pagefind@1.8.3(astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.3.0
-      astro: 5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       pagefind: 1.3.0
       sirv: 3.0.1
 
-  astro@5.13.2(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0):
+  astro@5.13.3(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.2
@@ -6875,16 +6875,16 @@ snapshots:
       unist-util-is: 6.0.0
       unist-util-visit-parents: 6.0.1
 
-  unocss-preset-animations@1.2.1(unocss@0.65.4(postcss@8.4.47)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))):
+  unocss-preset-animations@1.2.1(unocss@0.65.4(postcss@8.5.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))):
     dependencies:
-      unocss: 0.65.4(postcss@8.4.47)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))
+      unocss: 0.65.4(postcss@8.5.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))
 
-  unocss@0.65.4(postcss@8.4.47)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2)):
+  unocss@0.65.4(postcss@8.5.3)(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2)):
     dependencies:
       '@unocss/astro': 0.65.4(rollup@4.40.1)(vite@6.3.4(@types/node@22.15.17)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.6.0))(vue@3.5.12(typescript@5.9.2))
       '@unocss/cli': 0.65.4(rollup@4.40.1)
       '@unocss/core': 0.65.4
-      '@unocss/postcss': 0.65.4(postcss@8.4.47)
+      '@unocss/postcss': 0.65.4(postcss@8.5.3)
       '@unocss/preset-attributify': 0.65.4
       '@unocss/preset-icons': 0.65.4
       '@unocss/preset-mini': 0.65.4
