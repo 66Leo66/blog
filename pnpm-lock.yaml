@@ -13,7 +13,7 @@ importers:
         version: 0.9.4(prettier-plugin-astro@0.14.1)(prettier@3.6.2)(typescript@5.9.2)
       '@astrojs/mdx':
         specifier: 4.3.4
-        version: 4.3.4(astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 4.3.4(astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       '@astrojs/solid-js':
         specifier: ^4.4.2
         version: 4.4.4(@types/node@22.15.17)(solid-js@1.9.9)
@@ -24,14 +24,14 @@ importers:
         specifier: ^0.38.3
         version: 0.38.3
       astro:
-        specifier: 5.13.4
-        version: 5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+        specifier: 5.13.5
+        version: 5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       astro-expressive-code:
         specifier: ^0.38.3
-        version: 0.38.3(astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 0.38.3(astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       astro-pagefind:
         specifier: ^1.6.0
-        version: 1.8.4(astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
+        version: 1.8.4(astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))
       class-variance-authority:
         specifier: ^0.7.0
         version: 0.7.1
@@ -1661,8 +1661,8 @@ packages:
     peerDependencies:
       astro: ^2.0.4 || ^3 || ^4 || ^5
 
-  astro@5.13.4:
-    resolution: {integrity: sha512-Mgq5GYy3EHtastGXqdnh1UPuN++8NmJSluAspA5hu33O7YRs/em/L03cUfRXtc60l5yx5BfYJsjF2MFMlcWlzw==}
+  astro@5.13.5:
+    resolution: {integrity: sha512-XmBzkl13XU97+n/QiOM5uXQdAVe0yKt5gO+Wlgc8dHRwHR499qhMQ5sMFckLJweUINLzcNGjP3F5nG4wV8a2XA==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -3479,12 +3479,12 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/mdx@4.3.4(astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))':
+  '@astrojs/mdx@4.3.4(astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0))':
     dependencies:
       '@astrojs/markdown-remark': 6.3.6
       '@mdx-js/mdx': 3.1.0(acorn@8.14.1)
       acorn: 8.14.1
-      astro: 5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       es-module-lexer: 1.6.0
       estree-util-visit: 2.0.0
       hast-util-to-html: 9.0.5
@@ -3575,8 +3575,8 @@ snapshots:
 
   '@babel/generator@7.26.2':
     dependencies:
-      '@babel/parser': 7.28.0
-      '@babel/types': 7.28.0
+      '@babel/parser': 7.28.3
+      '@babel/types': 7.28.2
       '@jridgewell/gen-mapping': 0.3.8
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 3.0.2
@@ -3591,12 +3591,12 @@ snapshots:
 
   '@babel/helper-module-imports@7.18.6':
     dependencies:
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
 
   '@babel/helper-module-imports@7.25.9':
     dependencies:
       '@babel/traverse': 7.25.9
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
     transitivePeerDependencies:
       - supports-color
 
@@ -3620,11 +3620,11 @@ snapshots:
   '@babel/helpers@7.26.0':
     dependencies:
       '@babel/template': 7.25.9
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
 
   '@babel/parser@7.28.0':
     dependencies:
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
 
   '@babel/parser@7.28.3':
     dependencies:
@@ -3638,16 +3638,16 @@ snapshots:
   '@babel/template@7.25.9':
     dependencies:
       '@babel/code-frame': 7.26.2
-      '@babel/parser': 7.28.0
-      '@babel/types': 7.28.0
+      '@babel/parser': 7.28.3
+      '@babel/types': 7.28.2
 
   '@babel/traverse@7.25.9':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/generator': 7.26.2
-      '@babel/parser': 7.28.0
+      '@babel/parser': 7.28.3
       '@babel/template': 7.25.9
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
       debug: 4.4.0
       globals: 11.12.0
     transitivePeerDependencies:
@@ -4204,7 +4204,7 @@ snapshots:
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
       '@jridgewell/set-array': 1.2.1
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
       '@jridgewell/trace-mapping': 0.3.25
 
   '@jridgewell/resolve-uri@3.1.2': {}
@@ -4218,7 +4218,7 @@ snapshots:
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.5.0
+      '@jridgewell/sourcemap-codec': 1.5.5
 
   '@mdx-js/mdx@3.1.0(acorn@8.14.1)':
     dependencies:
@@ -4489,16 +4489,16 @@ snapshots:
 
   '@types/babel__generator@7.6.8':
     dependencies:
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
 
   '@types/babel__template@7.4.4':
     dependencies:
-      '@babel/parser': 7.28.0
-      '@babel/types': 7.28.0
+      '@babel/parser': 7.28.3
+      '@babel/types': 7.28.2
 
   '@types/babel__traverse@7.20.6':
     dependencies:
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
 
   '@types/debug@4.1.12':
     dependencies:
@@ -4840,19 +4840,19 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-expressive-code@0.38.3(astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
+  astro-expressive-code@0.38.3(astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
     dependencies:
-      astro: 5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       rehype-expressive-code: 0.38.3
 
-  astro-pagefind@1.8.4(astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
+  astro-pagefind@1.8.4(astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)):
     dependencies:
       '@pagefind/default-ui': 1.3.0
-      astro: 5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
+      astro: 5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0)
       pagefind: 1.3.0
       sirv: 3.0.1
 
-  astro@5.13.4(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0):
+  astro@5.13.5(@types/node@22.15.17)(jiti@2.4.2)(rollup@4.40.1)(tsx@4.19.2)(typescript@5.9.2)(yaml@2.6.0):
     dependencies:
       '@astrojs/compiler': 2.12.2
       '@astrojs/internal-helpers': 0.7.2
@@ -4887,7 +4887,7 @@ snapshots:
       import-meta-resolve: 4.1.0
       js-yaml: 4.1.0
       kleur: 4.1.5
-      magic-string: 0.30.17
+      magic-string: 0.30.18
       magicast: 0.3.5
       mrmime: 2.0.1
       neotraverse: 0.6.18
@@ -4960,7 +4960,7 @@ snapshots:
       '@babel/core': 7.26.0
       '@babel/helper-module-imports': 7.18.6
       '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.26.0)
-      '@babel/types': 7.28.0
+      '@babel/types': 7.28.2
       html-entities: 2.3.3
       parse5: 7.2.1
       validate-html-nesting: 1.2.2
@@ -5717,8 +5717,8 @@ snapshots:
 
   magicast@0.3.5:
     dependencies:
-      '@babel/parser': 7.28.0
-      '@babel/types': 7.28.0
+      '@babel/parser': 7.28.3
+      '@babel/types': 7.28.2
       source-map-js: 1.2.1
 
   markdown-extensions@2.0.0: {}
